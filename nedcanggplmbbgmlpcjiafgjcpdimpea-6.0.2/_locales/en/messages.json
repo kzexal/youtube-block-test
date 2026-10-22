@@ -1896,5 +1896,9 @@
   "BlockReasonChannelMinSubscribers": {
     "message": "Channel with less than {1} {^0:subscriber;subscribers}",
     "description": "{1} is the formatted number of subscribers"
+  },
+  "DontBlockSubscribedShorts": {
+    "message": "Do not block shorts from subscribed channels",
+    "description": "When blocking shorts, allow shorts from channels the user is subscribed to"
   }
 }

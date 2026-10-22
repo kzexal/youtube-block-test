@@ -1894,5 +1894,8 @@
   "BlockReasonChannelMinSubscribers": {
     "message": "Canal com menos de {1} {^0:inscrito;inscritos}",
     "description": "{1} is the formatted number of subscribers"
+  },
+  "DontBlockSubscribedShorts": {
+    "message": "Não bloquear shorts dos canais inscritos"
   }
 }
