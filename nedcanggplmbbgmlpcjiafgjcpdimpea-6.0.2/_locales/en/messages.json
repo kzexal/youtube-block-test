@@ -1,0 +1,1900 @@
+{
+  "ExtFullName": {
+    "message": "YTBlock - Block any content from YouTube™",
+    "description": "Name of the extension."
+  },
+  "ExtDescription": {
+    "message": "Block videos, comments, channels and much more!",
+    "description": "Description of the extension."
+  },
+  "LanguageCode": {
+    "message": "en",
+    "description": "This should be the language code of this translation, for example: en, fr, de, pt-BR, etc. This is necessary to identify if translations actually exist for the user's current language."
+  },
+  "ExtUpdatedNotificationTitle": {
+    "message": "YTBlock Updated",
+    "description": "Title of notification shown when the extension is updated"
+  },
+  "ExtUpdatedNotificationMessage": {
+    "message": "YTBlock has been updated to version {0}!",
+    "description": "Message of notification shown when the extension is updated"
+  },
+  "OptionsPageTitle": {
+    "message": "YTBlock Options"
+  },
+  "Donate": {
+    "message": "Donate"
+  },
+  "DonatePopoverDescription": {
+    "message": "Any donation will be greatly appreciated."
+  },
+  "Close": {
+    "message": "Close",
+    "description": "Often used in buttons to close something"
+  },
+  "CloseButton": {
+    "message": "Close button",
+    "description": "Used to label close buttons that is an X icon"
+  },
+  "GenericApplyMessage": {
+    "message": "Apply"
+  },
+  "GenericApplyingMessage": {
+    "message": "Applying..."
+  },
+  "GenericLoadingMessage": {
+    "message": "Loading",
+    "description": "Message used in multiple occasions to indicate that something is loading"
+  },
+  "SelectAll": {
+    "message": "Select All"
+  },
+  "UnselectAll": {
+    "message": "Unselect All"
+  },
+  "GenericConfirmDialogTitle": {
+    "message": "Are you sure?"
+  },
+  "DontShowAgainConfirmDialogOption": {
+    "message": "Don't show this again"
+  },
+  "GenericInputSearchPlaceholder": {
+    "message": "Search..."
+  },
+  "GenericAlertDialogContinueButton": {
+    "message": "OK"
+  },
+  "DonationDialogTitle": {
+    "message": "Donation"
+  },
+  "DonationDialogDescription": {
+    "message": "Support the development of this extension by donating."
+  },
+  "DonationDialogContentTitle": {
+    "message": "Hello there!"
+  },
+  "DonationDialogContentDescription": {
+    "message": "You've been using the extension for a while and I sincerely hope it's been beneficial to you. It's a free tool, and it always will be. If you feel like it's worth it, any support would be greatly appreciated."
+  },
+  "DonationDialogReminderLabel": {
+    "message": "Remind me"
+  },
+  "DonationDialogReminderOptionWeek": {
+    "message": "Next week"
+  },
+  "DonationDialogReminderOptionMonth": {
+    "message": "Next month"
+  },
+  "DonationDialogReminderOptionThreeMonths": {
+    "message": "Next three months"
+  },
+  "DonationDialogReminderOptionNever": {
+    "message": "Never again"
+  },
+  "OK": {
+    "message": "OK"
+  },
+  "DonationModalHello": {
+    "message": "Hello there!"
+  },
+  "DonationModalParagraph": {
+    "message": "You've been using the extension for a while and I sincerely hope it's been beneficial to you. It's a free tool, and it always will be. If you feel like it's worth it, any support would be greatly appreciated."
+  },
+  "DonationModalRemindMe": {
+    "message": "Remind me",
+    "description": "It is shown above the radios to select the time interval to remind to donate again, it should make sense when joining this phrase with the ones in the radios"
+  },
+  "DonationModalNextWeek": {
+    "message": "Next week"
+  },
+  "DonationModalNextMonth": {
+    "message": "Next month"
+  },
+  "DonationModalNextThreeMonths": {
+    "message": "Next three months"
+  },
+  "DonationModalNeverAgain": {
+    "message": "Never again"
+  },
+  "VideoBlockCount": {
+    "message": "<span>{0}</span> {^0:video;videos}"
+  },
+  "CommentBlockCount": {
+    "message": "<span>{0}</span> {^0:comment;comments}"
+  },
+  "PostBlockCount": {
+    "message": "<span>{0}</span> {^0:post;posts}"
+  },
+  "PlaylistBlockCount": {
+    "message": "<span>{0}</span> {^0:playlist;playlists}"
+  },
+  "Video": {
+    "message": "Video"
+  },
+  "Comment": {
+    "message": "Comment"
+  },
+  "Post": {
+    "message": "Post"
+  },
+  "Playlist": {
+    "message": "Playlist"
+  },
+  "General": {
+    "message": "General"
+  },
+  "Undo": {
+    "message": "Undo"
+  },
+  "BlockedContent": {
+    "message": "Blocked {0} ({1})"
+  },
+  "BlockedChannel": {
+    "message": "Blocked channel {0}"
+  },
+  "EnableUndoToast": {
+    "message": "Show notifications to undo a block"
+  },
+  "GeneralEnableContextMenu": {
+    "message": "Enable right-click context menu options"
+  },
+  "ExtensionUpdated": {
+    "message": "YTBlock updated to version {0}"
+  },
+  "Videos": {
+    "message": "Videos"
+  },
+  "Channels": {
+    "message": "Channels"
+  },
+  "Comments": {
+    "message": "Comments"
+  },
+  "Posts": {
+    "message": "Posts"
+  },
+  "Playlists": {
+    "message": "Playlists"
+  },
+  "API": {
+    "message": "API"
+  },
+  "GeneralWelcome": {
+    "message": "Welcome!"
+  },
+  "ContributionCardTitle": {
+    "message": "Help improve the extension!"
+  },
+  "ContributionCardDescMembers": {
+    "message": "Do you know of channels that frequently upload <strong>members-only</strong> or <strong>premiere/upcoming</strong> videos?"
+  },
+  "ContributionCardPleaseLetMeKnow": {
+    "message": "Please send me the links!"
+  },
+  "ContributionCardShareChannelLink": {
+    "message": "Share Channel link"
+  },
+  "GeneralPreBlockCount": {
+    "message": "So far you blocked..."
+  },
+  "GeneralAutoSave": {
+    "message": "Auto-save"
+  },
+  "GeneralNotifyUpdatesLabel": {
+    "message": "Notify updates"
+  },
+  "GeneralYTLogoRedirect": {
+    "message": "YouTube™ logo redirect to subscription page"
+  },
+  "GeneralMakeHarderToDisable": {
+    "message": "Make it harder to disable the extension"
+  },
+  "GeneralClickAmountToDisable": {
+    "message": "Click amount to disable"
+  },
+  "GeneralShowBlockOptionOnThreeDotsDropdown": {
+    "message": "Show block options on three dots dropdown"
+  },
+  "GeneralHeadOverSection": {
+    "message": "Head over to some of the sections for more advanced options:"
+  },
+  "GeneralAdvancedGuide": {
+    "message": "Advanced Guide"
+  },
+  "GeneralClearSettingsButton": {
+    "message": "Reset to Default"
+  },
+  "GeneralImportSettingsButton": {
+    "message": "Import Settings"
+  },
+  "GeneralExportSettingsButton": {
+    "message": "Export Settings"
+  },
+  "HardToDisableButtonOption": {
+    "message": "Click here {0} {^0:time;times} to change the option below",
+    "description": "Button shown in the options page, where the user has to click multiple times to enable the option to make the extension harder to disable"
+  },
+  "BlockContentKeywords": {
+    "message": "Block content that include:"
+  },
+  "BlockContentKeywordsNote": {
+    "message": "This will applied to videos, comments, posts and playlists"
+  },
+  "WhitelistContentTextAreaLabel": {
+    "message": "Do <b>not</b> block content that include:"
+  },
+  "WhitelistContentTextAreaPlaceholder": {
+    "message": "something good, nice words"
+  },
+  "CommaLineSeparation": {
+    "message": "Separate by comma ( , ) or lines"
+  },
+  "CommaLineSeparationInfo": {
+    "message": "In cases that the keyword must have a comma, insert a backslash (\\) before the comma. Ex:\nBananas\\, apples and oranges"
+  },
+  "LineSeparation": {
+    "message": "Separate by lines"
+  },
+  "SupportRegex": {
+    "message": "Supports Regex"
+  },
+  "CaseSensitive": {
+    "message": "Case sensitive"
+  },
+  "CaseSensitiveInfo": {
+    "message": "When checked, words like \"food\" will not block content that includes \"FOOD\" or \"FoOd\""
+  },
+  "ExactMatch": {
+    "message": "Exact match"
+  },
+  "ExactMatchInfo": {
+    "message": "When checked, the keyword must be the full name of the content. Example: \"book\" will not block \"Facebook\" or \"book reading\"."
+  },
+  "WordBoundary": {
+    "message": "Word boundary"
+  },
+  "WordBoundaryInfo": {
+    "message": "When checked, it will only match if the keyword is a fully word. For example, \"lever\" will not block content that has \"clever\"."
+  },
+  "RemoveContentInfo": {
+    "message": "This will remove the blocked content from the page, instead of hiding behind a overlay."
+  },
+  "RequireAPI": {
+    "message": "Require API"
+  },
+  "RequireAPISomePages": {
+    "message": "Require API in some pages"
+  },
+  "GenericKeywordInfo": {
+    "message": "Examples: \n\"best\" will match content like: \"Best movie quotes\" \n\"top, hd\" will match content like: \"Top 10 albums of all time\" and \"Beautiful Landscapes (HD)\"\n\nWith Regex:\n\"/a+/i\" will match content like: \"AaaaAAaAAAAaaAAA\"\n\"/(official (music )?video)/i\" will match content like: \"Lorem Ipsum (Official Music Video)\" and \"(Official Video)\""
+  },
+  "VideosBlockTitle": {
+    "message": "Block videos that title include:"
+  },
+  "VideosBlockTitlePlaceholder": {
+    "message": "playthrough, tutorial, music video"
+  },
+  "VideosBlockChannels": {
+    "message": "Block videos from these channels (name or link):"
+  },
+  "VideosBlockChannelsInfo": {
+    "message": "Blocking by name is recommended, link or @handle is not possible to get in some pages."
+  },
+  "VideosBlockChannelsPlaceholder": {
+    "message": "@badchannel\nbadChannel\nA Not Very Nice Channel\nhttps://www.youtube.com/channel/Ies24mwBcJTH1"
+  },
+  "VideosBlockTags": {
+    "message": "Block videos by tags:"
+  },
+  "VideosBlockTagsPlaceholder": {
+    "message": "cooking, game, music"
+  },
+  "VideosBlockSpecific": {
+    "message": "Block videos by link or ID:"
+  },
+  "VideoBlockDescription": {
+    "message": "Block videos that description include:"
+  },
+  "VideoBlockDescriptionPlaceholder": {
+    "message": "giveaway, twitch, financial advice"
+  },
+  "VideoBlockDescriptionAPIWarnInfo": {
+    "message": "Without API it's only possible to block videos that description is visible on the page."
+  },
+  "VideoBlockRemoveVideos": {
+    "message": "Remove blocked videos"
+  },
+  "VideoBlockShorts": {
+    "message": "Block shorts"
+  },
+  "AutoSkipBlockedShorts": {
+    "message": "Auto skip blocked shorts"
+  },
+  "VideoBlockLive": {
+    "message": "Block live videos"
+  },
+  "VideoMembersOnly": {
+    "message": "Block members only videos"
+  },
+  "VideoBlockPremiere": {
+    "message": "Block premiere videos"
+  },
+  "VideoBlockMusicVideos": {
+    "message": "Block music videos"
+  },
+  "VideoBlockMusicVideosDescription": {
+    "message": "Music videos are identified by the musical note symbol found on the video's thumbnail. Visible only on certain pages, such as the home, search, and subscriptions page. On other pages, they might not be identified as music videos."
+  },
+  "VideoBlockAITitle": {
+    "message": "Block AI (Experimental)"
+  },
+  "VideoBlockAIDescription": {
+    "message": "The following option will block videos that YouTube flags as AI generated, more especifically the videos that has the AI badge below them. Some videos despite clearly being AI may not be detected as such."
+  },
+  "VideoBlockAIVideos": {
+    "message": "Block AI videos (experimenental)"
+  },
+  "VideoBlockAgeRestricted": {
+    "message": "Block age restricted videos"
+  },
+  "BlockSearchSuggestions": {
+    "message": "Hide search suggestions that include blocked content"
+  },
+  "VideoBlockIgnorePlaylistVideos": {
+    "message": "Ignore playlist videos"
+  },
+  "VideoBlockIgnoreWatchLaterPlaylist": {
+    "message": "Ignore watch later playlist"
+  },
+  "VideoBlockOpenedVideos": {
+    "message": "Block opened videos"
+  },
+  "VideoBlockOpenedVideosInfo": {
+    "message": "This will pause the video and hide it behind a overlay."
+  },
+  "VideoBlockAutoSkipVideo": {
+    "message": "Auto-skip blocked videos from playlists"
+  },
+  "VideoBlockRemoveWatchAnyway": {
+    "message": "Remove the \"Watch anyway\" button"
+  },
+  "VideoBlockByDurationTitle": {
+    "message": "Block by duration"
+  },
+  "DurationShortNotice": {
+    "message": "Note: it's not possible to get #short videos durations without API. But it will be assumed that is shorter than 3 minutes."
+  },
+  "VideoBlockDuration": {
+    "message": "Block videos <b>longer</b> than"
+  },
+  "VideoBlockMinDuration": {
+    "message": "Block videos <b>shorter</b> than"
+  },
+  "InputNumberZeroIsDisabledTooltip": {
+    "message": "0 = disabled"
+  },
+  "VideoBlockByViewsTitle": {
+    "message": "Block by view count"
+  },
+  "VideoBlockMaxViews": {
+    "message": "Block videos with <b>more</b> views than"
+  },
+  "VideoBlockMinViews": {
+    "message": "Block videos with <b>less</b> views than"
+  },
+  "VideoBlockByPublishedTimeTitle": {
+    "message": "Block by published time"
+  },
+  "VideoPublishedTimeOlder": {
+    "message": "Block videos <b>older</b> than"
+  },
+  "VideoPublishedTimeNewer": {
+    "message": "Block videos <b>newer</b> than"
+  },
+  "days": {
+    "message": "day(s)"
+  },
+  "VideoBlockPublishedTimeTooltip": {
+    "message": "0 = disable"
+  },
+  "VideoBlockWatchProgressTitle": {
+    "message": "Block by watch progress"
+  },
+  "VideoBlockWatchProgressDescription": {
+    "message": "Block videos exceeding this watch percentage: (Set to 0% to disable)"
+  },
+  "VideoBlockByLanguagesTitle": {
+    "message": "Block by language"
+  },
+  "VideoBlockByLanguagesDescription": {
+    "message": "⚠️ Note: The API may not always detect the correct language for some videos. In some cases, it might fail to identify the language or interpret it incorrectly. Don't expect perfect accuracy."
+  },
+  "VideoBlockByLanguagesOptionPlaceholder": {
+    "message": "Select the languages..."
+  },
+  "VideoBlockCategories": {
+    "message": "Block by category"
+  },
+  "VideoBlockSelectCategories": {
+    "message": "Videos from selected category will be blocked."
+  },
+  "AddChannelBlockButton": {
+    "message": "Add block button next to channel names"
+  },
+  "ShowOnlyOnHover": {
+    "message": "Show button only on hover"
+  },
+  "AskConfirmationOnChannelBlockButton": {
+    "message": "Ask confirmation before blocking"
+  },
+  "MakeChannelBlockButtonBigger": {
+    "message": "Make block button bigger"
+  },
+  "HideChannelBlockButtonOnSubscriptionPage": {
+    "message": "Do not appear on subscription page"
+  },
+  "ChannelBlockButtonConfirmationPrompt": {
+    "message": "Are you sure you want to block the channel {0}?",
+    "description": "{0} will be replaced by the channel name"
+  },
+  "ChannelBlockButtonTooltip": {
+    "message": "Block this channel ({0})",
+    "description": "This is shown when hovering the channel block button, {0} will be replaced by the extension's name so the user know that the button came from it"
+  },
+  "ParagraphChannelBlocks": {
+    "message": "The channels below will be applied to block any type of content (videos, comments, posts, etc)"
+  },
+  "ChannelBlock": {
+    "message": "Block any content from these channels: (name or link)"
+  },
+  "ChannelBlockPlaceholder": {
+    "message": "@badChannel\nA Not Very Nice Channel\nhttps://www.youtube.com/channel/Ies24mwBcJTH1\nannoying user"
+  },
+  "ChannelBlockWhitelist": {
+    "message": "Whitelist channels:"
+  },
+  "ChannelBlockWhiteDescription": {
+    "message": "Content from these channels will not be blocked."
+  },
+  "ChannelBlockWhitelistPlaceholder": {
+    "message": "goodChannel\nA Very Nice Channel\nhttps://www.youtube.com/channel/Ies24mwBcJTH1\nawesome user"
+  },
+  "ContentBlockReason": {
+    "message": "Content includes:"
+  },
+  "BlockCommentsContent": {
+    "message": "Block comments that include:"
+  },
+  "BlockCommentsContentPlaceholder": {
+    "message": "follow me, giveaway, +18"
+  },
+  "BlockCommentChannels": {
+    "message": "Block comments from these users:"
+  },
+  "BlockCommentChannelsPlaceholder": {
+    "message": "@badUser009\n@uncool-Channel"
+  },
+  "BlockCommentSpecific": {
+    "message": "Block these comments:"
+  },
+  "BlockCommentSpecificInfo": {
+    "message": "You can block comments by clicking on the three dots when you hover over them, or by right clicking (or copying) the timestamp link of the comment."
+  },
+  "BlockCommentSpecificPlaceholder": {
+    "message": "Comment ID or link."
+  },
+  "BlockCommentRemoveComments": {
+    "message": "Remove blocked comments"
+  },
+  "BlockPostContent": {
+    "message": "Block posts that include:"
+  },
+  "BlockPostContentPlaceholder": {
+    "message": "bad word, annoying phrases"
+  },
+  "BlockPostChannels": {
+    "message": "Block posts from these channels:"
+  },
+  "BlockPostChannelsPlaceholder": {
+    "message": "@badUser009\nA Not So Great Channel\nannoying guy"
+  },
+  "BlockPostSpecific": {
+    "message": "Block these posts:"
+  },
+  "BlockPostRemovePosts": {
+    "message": "Remove blocked posts"
+  },
+  "PlaylistBlockMix": {
+    "message": "Block Mix playlist"
+  },
+  "PlaylistBlockMixInfo": {
+    "message": "Mix is a playlist generated by YouTube that often show up in video suggestions."
+  },
+  "PlaylistBlockedTitles": {
+    "message": "Block playlists that title include:"
+  },
+  "PlaylistBlockedTitlesPlaceholder": {
+    "message": "course, training, complete, music"
+  },
+  "PlaylistBlockedChannels": {
+    "message": "Block playlists from these channels:"
+  },
+  "PlaylistBlockedChannelsPlaceholder": {
+    "message": "@badUser009\nA Not So Great Channel\nannoying guy"
+  },
+  "PlaylistBlockedSpecific": {
+    "message": "Block these playlists:"
+  },
+  "PlaylistBlockReasonMix": {
+    "message": "Mix Playlist"
+  },
+  "PlaylistBlockReasonChannel": {
+    "message": "Playlist channel:"
+  },
+  "PlaylistBlockReasonSpecific": {
+    "message": "Playlist:"
+  },
+  "ParagraphAPI": {
+    "message": "An API key is necessary for getting information about content on YouTube that is not visible on the page. Such as categories, descriptions and tags from videos."
+  },
+  "EnableAPI": {
+    "message": "Enable API"
+  },
+  "APIKey": {
+    "message": "API key:"
+  },
+  "APIKeyPlaceholder": {
+    "message": "Enter your API key"
+  },
+  "ToggleAPIKeyVisibility": {
+    "message": "Toggle API key visibility"
+  },
+  "APICheck": {
+    "message": "Check if API key is valid"
+  },
+  "APIGuideLink": {
+    "message": "How do I get an API key?"
+  },
+  "Paragraph2API": {
+    "message": "API key has limits. In the free tier there's a maximum of 10.000 calls per day. The extension tries to minimize the number of call as much as possible, but it can still reach the quota if you navigate a lot in YouTube™."
+  },
+  "Paragraph3API": {
+    "message": "The options below helps your API key not reach the quota."
+  },
+  "APICache": {
+    "message": "Cache API data (Recommended)"
+  },
+  "APICacheInfo": {
+    "message": "API data received from videos will be reused for later when the video is found again. But the downside is that the data will not keep up-to-date with the video. Changes of title, description, tag, etc. will be ignored."
+  },
+  "APICacheCount": {
+    "message": "Videos cached: {0}"
+  },
+  "APIClearCache": {
+    "message": "Clear Cache"
+  },
+  "APIAutoClearLabel": {
+    "message": "Automatically clear cache:"
+  },
+  "APIAutoClearOption7Days": {
+    "message": "Clear cache older than 7 days"
+  },
+  "APIAutoClearOption30Days": {
+    "message": "Clear cache older than 30 days"
+  },
+  "APIAutoClearOptionSession": {
+    "message": "Clear cache after session"
+  },
+  "APIAutoClearOptionNone": {
+    "message": "Never"
+  },
+  "APIAutoClearOptionCustom": {
+    "message": "Custom"
+  },
+  "APIAutoClearCustomTimeLabel": {
+    "message": "Clear cache older than X days:"
+  },
+  "APIPreventPages": {
+    "message": "Prevent use of API key in certain pages"
+  },
+  "APISubPage": {
+    "message": "Subscription page"
+  },
+  "APIHomePage": {
+    "message": "Home page"
+  },
+  "APISearchPage": {
+    "message": "Search page"
+  },
+  "APIWatchPage": {
+    "message": "Watch page"
+  },
+  "APIChannelPage": {
+    "message": "Channel pages"
+  },
+  "APIPlaylistPage": {
+    "message": "Playlist pages"
+  },
+  "APITrendingPage": {
+    "message": "Trending page"
+  },
+  "APIShortsPage": {
+    "message": "Shorts page"
+  },
+  "APIOtherPages": {
+    "message": "Other pages:"
+  },
+  "SomethingWentWrong": {
+    "message": "Something went wrong, try later."
+  },
+  "CouldNotGetTags": {
+    "message": "Could not get tags from video, sorry."
+  },
+  "VideoWithEmptyTags": {
+    "message": "This video has no tag."
+  },
+  "BlockUnblockContent": {
+    "message": "Block/unblock content"
+  },
+  "BlockUnblockChannel": {
+    "message": "Block/unblock channel"
+  },
+  "ContextMenuViewTags": {
+    "message": "View tags"
+  },
+  "ContextMenuReload": {
+    "message": "Reload"
+  },
+  "ContextMenuPrintMainVideo": {
+    "message": "Print Main Video"
+  },
+  "ContextMenuBlockText": {
+    "message": "Block text"
+  },
+  "ContextMenuBlockVideoTitle": {
+    "message": "Block text in title"
+  },
+  "ContextMenuBlockVideoDescription": {
+    "message": "Block text in description"
+  },
+  "ContextMenuBlockVideoChannels": {
+    "message": "Block text in video channels"
+  },
+  "ContextMenuBlockVideoTags": {
+    "message": "Block text in tags"
+  },
+  "ContextMenuBlockCommentContent": {
+    "message": "Block text in content"
+  },
+  "ContextMenuBlockCommentChannel": {
+    "message": "Block text in comment channels"
+  },
+  "ContextMenuBlockPostContent": {
+    "message": "Block text in content"
+  },
+  "ContextMenuBlockPostChannel": {
+    "message": "Block text in post channels"
+  },
+  "ContextMenuBlockPlaylistTitle": {
+    "message": "Block text in playlist title"
+  },
+  "ContextMenuBlockPlaylistChannel": {
+    "message": "Block text in playlist channel"
+  },
+  "CouldNotBlockContent": {
+    "message": "Could not block the content, sorry."
+  },
+  "CouldNotBlockChannel": {
+    "message": "Could not block the channel, sorry."
+  },
+  "CouldNotBlockContentLink": {
+    "message": "Could not find content link, sorry."
+  },
+  "CouldNotBlockChannelLink": {
+    "message": "Could not block the channel link, sorry."
+  },
+  "BlockReasonChannel": {
+    "message": "Blocked channel:"
+  },
+  "BlockReasonVideoChannel": {
+    "message": "Video from channel:"
+  },
+  "BlockReasonSpecificVideo": {
+    "message": "Video:"
+  },
+  "BlockReasonShorts": {
+    "message": "Video is shorts"
+  },
+  "BlockReasonLive": {
+    "message": "Live video"
+  },
+  "BlockReasonPremiere": {
+    "message": "Premiere video"
+  },
+  "BlockReasonAIVideo": {
+    "message": "AI video"
+  },
+  "BlockReasonAgeRestricted": {
+    "message": "Video is age restricted"
+  },
+  "BlockReasonMembersOnly": {
+    "message": "Video for members only"
+  },
+  "BlockReasonCategory": {
+    "message": "Video from category:"
+  },
+  "BlockReasonDuration": {
+    "message": "Video longer than {0} {^0:second;seconds}"
+  },
+  "BlockReasonMinDuration": {
+    "message": "Video shorter than {0} {^0:second;seconds}"
+  },
+  "BlockReasonVideoNewer": {
+    "message": "Video newer than {0} {^0:day;days}"
+  },
+  "BlockReasonVideoOlder": {
+    "message": "Video older than {0} {^0:day;days}"
+  },
+  "BlockReasonVideoMaxViews": {
+    "message": "Video with more than {1} {^0:view;views}",
+    "description": "{1} is the formatted number of views"
+  },
+  "BlockReasonVideoMinViews": {
+    "message": "Video with less than {1} {^0:view;views}",
+    "description": "{1} is the formatted number of views"
+  },
+  "BlockReasonVideoWatchProgress": {
+    "message": "Video already watched"
+  },
+  "BlockReasonDescription": {
+    "message": "Description includes:"
+  },
+  "BlockReasonTag": {
+    "message": "Video has tag:"
+  },
+  "BlockReasonTitle": {
+    "message": "Title includes:"
+  },
+  "BlockReasonCommentUser": {
+    "message": "Comment from channel:"
+  },
+  "BlockReasonSpecificComment": {
+    "message": "Comment:"
+  },
+  "BlockReasonCommentContent": {
+    "message": "Comment includes:"
+  },
+  "BlockReasonPostChannel": {
+    "message": "Post from channel:"
+  },
+  "BlockReasonSpecificPost": {
+    "message": "Post:"
+  },
+  "BlockReasonPostContent": {
+    "message": "Post includes:"
+  },
+  "Blocked": {
+    "message": "Blocked"
+  },
+  "Unblock": {
+    "message": "Unblock"
+  },
+  "UnblockChannel": {
+    "message": "Unblock channel"
+  },
+  "Options": {
+    "message": "Options"
+  },
+  "WatchAnyway": {
+    "message": "Watch anyway"
+  },
+  "PopupTitle": {
+    "message": "YTBlock"
+  },
+  "PopupNothingFound": {
+    "message": "Nothing to block on this page"
+  },
+  "PopupNoConnection": {
+    "message": "Could not connect to this page, please reload the tab"
+  },
+  "PopupExtensionEnabled": {
+    "message": "Extension is enabled"
+  },
+  "PopupExtensionDisabled": {
+    "message": "Extension is disabled"
+  },
+  "PopupDisableTimer": {
+    "message": "Enable in %1"
+  },
+  "PopupEnableTimerMinutes": {
+    "message": "Enable in {0} {^0:minute;minutes}"
+  },
+  "PopupEnableTimerHours": {
+    "message": "Enable in {0} {^0:hour;hours}"
+  },
+  "PopupExtensionDisableButton": {
+    "message": "Click here {0} {^0:time;times} to disable it"
+  },
+  "PopupExtensionDisableCheckbox": {
+    "message": "Make it harder to disable"
+  },
+  "PopupBlockedVideos": {
+    "message": "Blocked videos"
+  },
+  "PopupBlockedComments": {
+    "message": "Blocked comments"
+  },
+  "PopupBlockedPosts": {
+    "message": "Blocked posts"
+  },
+  "PopupBlockedPlaylists": {
+    "message": "Blocked playlists"
+  },
+  "PopupBlockCountCurrent": {
+    "message": "<b>{0}</b> in this page",
+    "description": "This is block count shown in the popup, {0} will be replaced by the number of blocked items"
+  },
+  "PopupBlockCountTotal": {
+    "message": "<b>{0}</b> total",
+    "description": "This is the total block count shown in the popup, {0} will be replaced by the number of the total of items blocked"
+  },
+  "PopupGoToOptionsPage": {
+    "message": "Go to Options Page"
+  },
+  "hour": {
+    "message": "hour"
+  },
+  "minute": {
+    "message": "minute"
+  },
+  "second": {
+    "message": "second"
+  },
+  "hourPlural": {
+    "message": "hours"
+  },
+  "minutePlural": {
+    "message": "minutes"
+  },
+  "secondPlural": {
+    "message": "seconds"
+  },
+  "OptionSaveButton": {
+    "message": "Save"
+  },
+  "OptionSaveButtonLoading": {
+    "message": "Saving..."
+  },
+  "OptionSaveButtonSuccess": {
+    "message": "Saved!"
+  },
+  "SidebarButtonLabel": {
+    "message": "Toggle sidebar"
+  },
+  "OptionChangelogs": {
+    "message": "Release Notes"
+  },
+  "ThemeButtonLabel": {
+    "message": "Toggle theme"
+  },
+  "APICheckNoKey": {
+    "message": "Please set an API key first."
+  },
+  "APICheckLoading": {
+    "message": "Checking..."
+  },
+  "APICheckSuccess": {
+    "message": "Your API key is valid and working perfectly!"
+  },
+  "APICacheClearPrompt": {
+    "message": "This will clear all the API data got from videos so far. Are you sure?"
+  },
+  "APICacheClearSuccess": {
+    "message": "Cache cleared!"
+  },
+  "OptionUnsavedPrompt": {
+    "message": "Are you sure you want to exit? This will lose any changes you made to the options"
+  },
+  "OptionResetSettingsPrompt": {
+    "message": "This will reset your current settings back to default. Are you sure?"
+  },
+  "OptionPartialResetSettingsPrompt": {
+    "message": "This will reset some of your current settings back to default. Are you sure?"
+  },
+  "OptionResetSettingsSuccess": {
+    "message": "Done! Settings back to default."
+  },
+  "OptionImportSettingsPrompt": {
+    "message": "This will overwrite <b>ALL</b> your current settings, including your presets. Are you sure?"
+  },
+  "OptionImportSettingsSuccess": {
+    "message": "Settings imported successfully!"
+  },
+  "Category2": {
+    "message": "Autos & Vehicles"
+  },
+  "Category1": {
+    "message": "Film & Animation"
+  },
+  "Category10": {
+    "message": "Music"
+  },
+  "Category15": {
+    "message": "Pets & Animals"
+  },
+  "Category17": {
+    "message": "Sports"
+  },
+  "Category18": {
+    "message": "Short Movies"
+  },
+  "Category19": {
+    "message": "Travel & Events"
+  },
+  "Category20": {
+    "message": "Gaming"
+  },
+  "Category21": {
+    "message": "Videoblogging"
+  },
+  "Category22": {
+    "message": "People & Blogs"
+  },
+  "Category23": {
+    "message": "Comedy"
+  },
+  "Category24": {
+    "message": "Entertainment"
+  },
+  "Category25": {
+    "message": "News & Politics"
+  },
+  "Category26": {
+    "message": "Howto & Style"
+  },
+  "Category27": {
+    "message": "Education"
+  },
+  "Category28": {
+    "message": "Science & Technology"
+  },
+  "Category29": {
+    "message": "Nonprofits & Activism"
+  },
+  "Category30": {
+    "message": "Movies"
+  },
+  "Category31": {
+    "message": "Anime/Animation"
+  },
+  "Category32": {
+    "message": "Action/Adventure"
+  },
+  "Category33": {
+    "message": "Classics"
+  },
+  "Category34": {
+    "message": "Movie/Comedy"
+  },
+  "Category35": {
+    "message": "Documentary"
+  },
+  "Category36": {
+    "message": "Drama"
+  },
+  "Category37": {
+    "message": "Family"
+  },
+  "Category38": {
+    "message": "Foreign"
+  },
+  "Category39": {
+    "message": "Horror"
+  },
+  "Category40": {
+    "message": "Sci-Fi/Fantasy"
+  },
+  "Category41": {
+    "message": "Thriller"
+  },
+  "Category42": {
+    "message": "Shorts"
+  },
+  "Category43": {
+    "message": "Shows"
+  },
+  "Category44": {
+    "message": "Trailers"
+  },
+  "Cancel": {
+    "message": "Cancel"
+  },
+  "Continue": {
+    "message": "Continue"
+  },
+  "Confirm": {
+    "message": "Confirm"
+  },
+  "Preview": {
+    "message": "Preview"
+  },
+  "Password": {
+    "message": "Password"
+  },
+  "PasswordProtection": {
+    "message": "Password protection"
+  },
+  "PasswordProtectionDescription": {
+    "message": "A password will be prompted when unblocking content, opening the extension's pop-up, or accessing the options page."
+  },
+  "PasswordModalTitle": {
+    "message": "Password protection"
+  },
+  "PasswordModalDescription": {
+    "message": "Please enter your password to continue."
+  },
+  "PasswordInputPlaceholder": {
+    "message": "Enter your password"
+  },
+  "NewPasswordInputPlaceholder": {
+    "message": "Enter your new password"
+  },
+  "PasswordConfirmationInputPlaceholder": {
+    "message": "Re-enter your password"
+  },
+  "NewPasswordConfirmationInputPlaceholder": {
+    "message": "Re-enter your new password"
+  },
+  "InvalidPassword": {
+    "message": "Invalid password."
+  },
+  "PasswordInvalidMatch": {
+    "message": "The passwords don't match."
+  },
+  "PasswordInvalidEmpty": {
+    "message": "The password cannot be empty."
+  },
+  "ConfirmPassword": {
+    "message": "Confirm password"
+  },
+  "SetPassword": {
+    "message": "Set password"
+  },
+  "PasswordsDontMatch": {
+    "message": "Passwords don't match"
+  },
+  "SetPasswordSuccess": {
+    "message": "Password set successfully!"
+  },
+  "PasswordConfirmationTitle": {
+    "message": "Warning"
+  },
+  "PasswordConfirmationDescription": {
+    "message": "Once the password is set, there is <b>NO</b> way to remind or recover it. Please ensure that you remember your password."
+  },
+  "PasswordConfirmationCheckbox": {
+    "message": "I'm aware that there is no recovery option available for the password"
+  },
+  "PasswordConfirmationCheckboxInvalidMessage": {
+    "message": "Please check the box to indicate your agreement."
+  },
+  "CurrentlyProtectedByPassword": {
+    "message": "The extension is currently protected by a password."
+  },
+  "RemovePassword": {
+    "message": "Remove password"
+  },
+  "RemovePasswordConfirmation": {
+    "message": "Are you sure you want to remove the password?"
+  },
+  "RemovePasswordSuccess": {
+    "message": "Password removed successfully!"
+  },
+  "ChangedPasswordSuccess": {
+    "message": "Password changed successfully!"
+  },
+  "ChangePassword": {
+    "message": "Change password"
+  },
+  "CurrentPassword": {
+    "message": "Current password"
+  },
+  "NewPassword": {
+    "message": "New password"
+  },
+  "ConfirmNewPassword": {
+    "message": "Confirm new password"
+  },
+  "UpdatePassword": {
+    "message": "Update password"
+  },
+  "UpdatePasswordSucess": {
+    "message": "New password set successfully!"
+  },
+  "TogglePasswordVisibilityLabel": {
+    "message": "Toggle password visibility"
+  },
+  "Security": {
+    "message": "Security"
+  },
+  "Locking": {
+    "message": "Locking"
+  },
+  "KeepUnlockedCheckbox": {
+    "message": "Keep unlocked for some time"
+  },
+  "KeepUnlockedForTime": {
+    "message": "Keep unlocked for {0}"
+  },
+  "PasswordProtectionKeepUnlockedCheckboxSeconds": {
+    "message": "Keep unlocked for {0} {^0:second;seconds}"
+  },
+  "PasswordProtectionKeepUnlockedCheckboxMinutes": {
+    "message": "Keep unlocked for {0} {^0:minute;minutes}"
+  },
+  "PasswordProtectionKeepUnlockedCheckboxHours": {
+    "message": "Keep unlocked for {0} {^0:hour;hours}"
+  },
+  "PasswordProtectionKeepUnlockedCheckboxDays": {
+    "message": "Keep unlocked for {0} {^0:day;days}"
+  },
+  "ForHowLong": {
+    "message": "For how long?"
+  },
+  "Hours": {
+    "message": "Hours"
+  },
+  "Minutes": {
+    "message": "Minutes"
+  },
+  "SecondTime": {
+    "message": "{0} {^0:second;seconds}"
+  },
+  "MinuteTime": {
+    "message": "{0} {^0:minute;minutes}"
+  },
+  "HourTime": {
+    "message": "{0} {^0:hour;hours}"
+  },
+  "DayTime": {
+    "message": "{0} {^0:day;days}"
+  },
+  "Custom": {
+    "message": "Custom"
+  },
+  "Overlays": {
+    "message": "Overlays"
+  },
+  "OverlaysDescription": {
+    "message": "Overlays are interactive elements that appear over blocked content, allowing users to toggle its visibility and see why the content was blocked."
+  },
+  "ShowOverlays": {
+    "message": "Show overlays"
+  },
+  "ShowVideoOverlay": {
+    "message": "Show overlay for videos"
+  },
+  "ShowCommentOverlay": {
+    "message": "Show overlay for comments"
+  },
+  "ShowPostOverlay": {
+    "message": "Show overlay for posts"
+  },
+  "ShowPlaylistOverlay": {
+    "message": "Show overlay for playlists"
+  },
+  "OverlayCustomizeDescription": {
+    "message": "The options below will allow you to customize the overlay."
+  },
+  "OverlayPreviewToggle": {
+    "message": "Toggle overlay preview"
+  },
+  "OverlayPreviewBlockReason": {
+    "message": "Block reason"
+  },
+  "RemoveRevealButton": {
+    "message": "Remove reveal button"
+  },
+  "RemoveUnblockButton": {
+    "message": "Remove unblock button"
+  },
+  "RemoveBlockReason": {
+    "message": "Remove block reason"
+  },
+  "RemoveOptionsButton": {
+    "message": "Remove options button"
+  },
+  "OverlayContentInfoTitle": {
+    "message": "Title: {0}",
+    "description": "This is the title of the video shown in the block overlay when the option 'Show video title on overlay' is enabled, {0} will be replaced by the video's title"
+  },
+  "OverlayContentInfoChannel": {
+    "message": "Channel: {0}",
+    "description": "This is the channel name shown in the block overlay when the option 'Show channel name on overlay' is enabled, {0} will be replaced by the content's channel name"
+  },
+  "OverlayPreviewContentInfoTitleExample": {
+    "message": "Title: A video title"
+  },
+  "OverlayPreviewContentInfoChannelExample": {
+    "message": "Channel: A Channel Name"
+  },
+  "ShowVideoTitleOnOverlay": {
+    "message": "Show video title"
+  },
+  "ShowChannelNameOnOverlay": {
+    "message": "Show channel name"
+  },
+  "ClearSettingModalTitle": {
+    "message": "Reset settings back to default"
+  },
+  "ClearSettingModalDescription": {
+    "message": "Choose the settings that should be reset to default."
+  },
+  "ClearSettingsModalPresetsCheckboxLabel": {
+    "message": "Preset settings"
+  },
+  "ClearSettingsModalPresetsLabel": {
+    "message": "Apply reset to the following presets:"
+  },
+  "ClearSettingsModalPresetsClearCurrentOption": {
+    "message": "Current preset (\"{0}\")",
+    "description": "{0} is the name of the current active preset"
+  },
+  "ClearSettingsModalPresetsClearAllOption": {
+    "message": "All presets"
+  },
+  "ClearSettingsModalRemoveEmptyPresetsCheckboxLabel": {
+    "message": "Remove empty presets"
+  },
+  "GeneralSettings": {
+    "message": "General settings"
+  },
+  "BlockCount": {
+    "message": "Block count"
+  },
+  "APISettings": {
+    "message": "API settings"
+  },
+  "Presets": {
+    "message": "Presets"
+  },
+  "PresetsOptionShowOnPopupLabel": {
+    "message": "Show presets selection on popup"
+  },
+  "PresetSelectMenuLabel": {
+    "message": "Preset:"
+  },
+  "PresetSelectMenuEmptyName": {
+    "message": "<no name>",
+    "description": "This is how the name of a preset with no name is displayed in the preset selection dropdown"
+  },
+  "PresetSelectMenuSubmitting": {
+    "message": "Changing preset..."
+  },
+  "PresetDefaultName": {
+    "message": "Default"
+  },
+  "PresetManagerLabel": {
+    "message": "Manage presets:"
+  },
+  "PresetAddPresetButton": {
+    "message": "Add preset"
+  },
+  "PresetsDescription": {
+    "message": "With presets, you can easily switch between saved settings."
+  },
+  "PresetNewCopyName": {
+    "message": "{0} - Copy",
+    "description": "This is the new duplication name, {0} will be replaced by the preset name which user is duplicating"
+  },
+  "PresetNewName": {
+    "message": "New preset"
+  },
+  "PresetActivateButton": {
+    "message": "Activate"
+  },
+  "PresetActivateButtonSubmiting": {
+    "message": "Activating..."
+  },
+  "PresetActivated": {
+    "message": "Activated"
+  },
+  "PresetActionDropdownTitle": {
+    "message": "Actions"
+  },
+  "PresetActionMoveUp": {
+    "message": "Move up"
+  },
+  "PresetActionMoveDown": {
+    "message": "Move down"
+  },
+  "PresetActionRemove": {
+    "message": "Remove"
+  },
+  "PresetActionRemovalDisabledReasonDefault": {
+    "message": "Remove (Cannot remove the default preset)"
+  },
+  "PresetActionRemovalDisabledReasonActive": {
+    "message": "Remove (Cannot remove an active preset)"
+  },
+  "PresetActionDuplicate": {
+    "message": "Duplicate"
+  },
+  "PresetActionSchedule": {
+    "message": "Schedule"
+  },
+  "PresetActivatingWithoutSavingAlertTitle": {
+    "message": "Settings must be saved first"
+  },
+  "PresetActivatingWithoutSavingAlertDescription": {
+    "message": "Please save the settings before activating a preset."
+  },
+  "PresetScheduleActivatedToast": {
+    "message": "This preset was activated by a schedule"
+  },
+  "PresetScheduleEditButton": {
+    "message": "Edit schedule"
+  },
+  "PresetScheduleButton": {
+    "message": "Schedule this preset"
+  },
+  "PresetScheduleSaveWarning": {
+    "message": "Schedule this preset (Save changes for allowing scheduling of this preset)"
+  },
+  "PresetScheduleUnsavedPresetAlertTitle": {
+    "message": "Save the preset first"
+  },
+  "PresetScheduleUnsavedPresetAlertDescription": {
+    "message": "Presets being edited can't be scheduled, please save the changes before scheduling it."
+  },
+  "PresetRemovalConfirmationTitle": {
+    "message": "Remove preset?"
+  },
+  "PresetRemovalConfirmationDescription": {
+    "message": "Are you sure you want to remove the preset <b>{0}</b>? This will remove all the settings from it.",
+    "description": "{0} will be replaced by the preset name"
+  },
+  "PresetScheduleDialogTitle": {
+    "message": "Preset Schedule",
+    "description": "Title of the preset schedule dialog"
+  },
+  "PresetScheduleDialogDescription": {
+    "message": "Configure automatic preset activation based on time and days of the week.",
+    "description": "Description of the preset schedule dialog"
+  },
+  "PresetScheduleEnableLabel": {
+    "message": "Enable schedule for \"{0}\"",
+    "description": "{0} will be replaced by the preset name"
+  },
+  "PresetScheduleStartTimeLabel": {
+    "message": "Start Time"
+  },
+  "PresetScheduleEndTimeLabel": {
+    "message": "End Time"
+  },
+  "PresetScheduleFullDayLabel": {
+    "message": "Full day"
+  },
+  "PresetScheduleDaysOfWeekLabel": {
+    "message": "Days of Week"
+  },
+  "PresetScheduleMondayLabel": {
+    "message": "Monday"
+  },
+  "PresetScheduleTuesdayLabel": {
+    "message": "Tuesday"
+  },
+  "PresetScheduleWednesdayLabel": {
+    "message": "Wednesday"
+  },
+  "PresetScheduleThursdayLabel": {
+    "message": "Thursday"
+  },
+  "PresetScheduleFridayLabel": {
+    "message": "Friday"
+  },
+  "PresetScheduleSaturdayLabel": {
+    "message": "Saturday"
+  },
+  "PresetScheduleSundayLabel": {
+    "message": "Sunday"
+  },
+  "PresetScheduleFallbackPresetLabel": {
+    "message": "Preset to activate after this schedule ends"
+  },
+  "PresetScheduleSaving": {
+    "message": "Saving..."
+  },
+  "PresetScheduleSaveButton": {
+    "message": "Save Schedule"
+  },
+  "PresetScheduleSavedToast": {
+    "message": "Preset \"{0}\" schedule saved.",
+    "description": "{0} will be replaced by the preset name"
+  },
+  "DateRangeBlockTitle": {
+    "message": "Block by date interval"
+  },
+  "DateRangeBlockAddRangeButton": {
+    "message": "Add new date interval"
+  },
+  "DateRangeBlockFrom": {
+    "message": "From"
+  },
+  "DateRangeBlockTo": {
+    "message": "To"
+  },
+  "DateRangeBlockResetDateButton": {
+    "message": "Reset"
+  },
+  "DateRangeBlockRemoveDateButton": {
+    "message": "Remove"
+  },
+  "BlockReasonBlockedDateRangeBetween": {
+    "message": "Video from {0} to {1}",
+    "description": "{0} and {1} will be replaced by a formatted start and end date, respectively. Example of formatted date: 03/28/2025"
+  },
+  "BlockReasonBlockedDateRangeFromStart": {
+    "message": "Video from {0} to now",
+    "description": "{0} will be replaced by a formatted start date. Example of formatted date: 03/28/2025"
+  },
+  "BlockReasonBlockedDateRangeToEnd": {
+    "message": "Video published before {0}",
+    "description": "{0} will be replaced by a formatted end date. Example of formatted date: 03/28/2025"
+  },
+  "SideBarFooterWebsite": {
+    "message": "Website",
+    "description": "Sidebar footer link to the official website"
+  },
+  "SideBarFooterBugReport": {
+    "message": "Bug report",
+    "description": "Sidebar footer link to the bug report/contact page"
+  },
+  "SideBarFooterPrivacyPolicy": {
+    "message": "Privacy Policy",
+    "description": "Sidebar footer link to the privacy policy page"
+  },
+  "ToastGenericSuccesTitle": {
+    "message": "Success"
+  },
+  "CustomFilters": {
+    "message": "Custom Filters"
+  },
+  "NoFiltersSelected": {
+    "message": "No filters selected"
+  },
+  "SelectAFilterToEditRules": {
+    "message": "Select a filter from the left to edit its rules."
+  },
+  "EnableFilter": {
+    "message": "Enable Filter"
+  },
+  "OverrideOverlayVisibility": {
+    "message": "Override overlay visibility (when blocked by this filter)"
+  },
+  "OverlayVisibility": {
+    "message": "Overlay Visibility"
+  },
+  "UseNormalOverlaySettings": {
+    "message": "Use the normal overlay settings"
+  },
+  "ForceShowOverlay": {
+    "message": "Force show overlay"
+  },
+  "ForceHideCompletely": {
+    "message": "Force hide completely"
+  },
+  "NewFilter": {
+    "message": "New Filter"
+  },
+  "SearchFiltersPlaceholder": {
+    "message": "Search filters..."
+  },
+  "FilterNamePlaceholder": {
+    "message": "Filter name..."
+  },
+  "DeleteFilterTitle": {
+    "message": "Delete Filter?"
+  },
+  "DeleteFilterConfirmMessage": {
+    "message": "Are you sure you want to delete the filter \"{0}\"?",
+    "description": "{0} is the filter name"
+  },
+  "MoveUp": {
+    "message": "Move Up"
+  },
+  "MoveDown": {
+    "message": "Move Down"
+  },
+  "Duplicate": {
+    "message": "Duplicate"
+  },
+  "Delete": {
+    "message": "Delete"
+  },
+  "NoFiltersConfiguredYet": {
+    "message": "You don't have any filters configured yet."
+  },
+  "CreateFilter": {
+    "message": "Create Filter"
+  },
+  "ConjunctionAnd": {
+    "message": "AND"
+  },
+  "ConjunctionOr": {
+    "message": "OR"
+  },
+  "ConjunctionNor": {
+    "message": "NOR"
+  },
+  "ConjunctionNand": {
+    "message": "NAND"
+  },
+  "AddRuleButton": {
+    "message": "Rule"
+  },
+  "AddGroupButton": {
+    "message": "+ Group"
+  },
+  "DeleteGroupTooltip": {
+    "message": "Delete Group"
+  },
+  "RuleFieldPlaceholder": {
+    "message": "Field"
+  },
+  "RuleRequireAPI": {
+    "message": "(Require API)"
+  },
+  "RulePartiallyRequiresAPI": {
+    "message": "(Partially Requires API)"
+  },
+  "RuleOperatorPlaceholder": {
+    "message": "Operator"
+  },
+  "RuleOperatorIs": {
+    "message": "Is"
+  },
+  "RuleOperatorIsNot": {
+    "message": "Is Not"
+  },
+  "RuleOperatorIsAny": {
+    "message": "Is Any"
+  },
+  "RuleOperatorIsNotAny": {
+    "message": "Is Not Any"
+  },
+  "RuleOperatorIsAfter": {
+    "message": "Is After"
+  },
+  "RuleOperatorIsBefore": {
+    "message": "Is Before"
+  },
+  "RuleOperatorIsOnOrAfter": {
+    "message": "Is On Or After"
+  },
+  "RuleOperatorIsOnOrBefore": {
+    "message": "Is On Or Before"
+  },
+  "RulePagePlaceholder": {
+    "message": "Select pages..."
+  },
+  "PageHome": {
+    "message": "Home"
+  },
+  "PageSubscription": {
+    "message": "Subscription"
+  },
+  "PageShorts": {
+    "message": "Shorts"
+  },
+  "PageSearch": {
+    "message": "Search"
+  },
+  "RuleValuePlaceholder": {
+    "message": "Value..."
+  },
+  "RuleSelectCategoriesPlaceholder": {
+    "message": "Select Categories..."
+  },
+  "RuleSelectLanguagesPlaceholder": {
+    "message": "Select Languages..."
+  },
+  "RulePatternPlaceholder": {
+    "message": "pattern"
+  },
+  "RuleFlagsPlaceholder": {
+    "message": "flags"
+  },
+  "RuleMatchCaseTooltip": {
+    "message": "Match Case"
+  },
+  "RuleWordBoundaryTooltip": {
+    "message": "Word Boundary"
+  },
+  "DeleteRuleTooltip": {
+    "message": "Delete Rule"
+  },
+  "RuleFieldTitle": {
+    "message": "Title"
+  },
+  "RuleFieldDescription": {
+    "message": "Description"
+  },
+  "RuleFieldChannelName": {
+    "message": "Channel Name"
+  },
+  "RuleFieldTags": {
+    "message": "Tags"
+  },
+  "RuleFieldVideoIDOrURL": {
+    "message": "Video ID or URL"
+  },
+  "RuleFieldCategory": {
+    "message": "Category"
+  },
+  "RuleFieldLanguage": {
+    "message": "Language"
+  },
+  "RuleFieldDuration": {
+    "message": "Duration (sec)"
+  },
+  "RuleFieldViewCount": {
+    "message": "View Count"
+  },
+  "RuleFieldPublishedDate": {
+    "message": "Published Date"
+  },
+  "RuleFieldPublishedDaysAgo": {
+    "message": "Published (Days Ago)"
+  },
+  "RuleFieldWatchProgress": {
+    "message": "Watch Progress (%)"
+  },
+  "RuleFieldIsShorts": {
+    "message": "Is Shorts"
+  },
+  "RuleFieldIsLive": {
+    "message": "Is Live"
+  },
+  "RuleFieldIsPremiere": {
+    "message": "Is Premiere"
+  },
+  "RuleFieldIsMembersOnly": {
+    "message": "Is Members Only"
+  },
+  "RuleFieldIsAgeRestricted": {
+    "message": "Is Age Restricted"
+  },
+  "RuleFieldIsAI": {
+    "message": "Is AI"
+  },
+  "RuleFieldIsMusic": {
+    "message": "Is Music"
+  },
+  "RuleFieldPage": {
+    "message": "Page"
+  },
+  "RuleFieldCommentContent": {
+    "message": "Comment Content"
+  },
+  "RuleFieldAuthorName": {
+    "message": "Author Name"
+  },
+  "RuleFieldCommentID": {
+    "message": "Comment ID"
+  },
+  "RuleFieldPostContent": {
+    "message": "Post Content"
+  },
+  "RuleFieldPostID": {
+    "message": "Post ID"
+  },
+  "RuleFieldPlaylistTitle": {
+    "message": "Playlist Title"
+  },
+  "RuleFieldPlaylistID": {
+    "message": "Playlist ID"
+  },
+  "RuleFieldIsMixPlaylist": {
+    "message": "Is Mix Playlist"
+  },
+  "RuleOpContains": {
+    "message": "Contains"
+  },
+  "RuleOpDoesNotContain": {
+    "message": "Does Not Contain"
+  },
+  "RuleOpEquals": {
+    "message": "Equals"
+  },
+  "RuleOpDoesNotEqual": {
+    "message": "Does Not Equal"
+  },
+  "RuleOpStartsWith": {
+    "message": "Starts With"
+  },
+  "RuleOpDoesNotStartWith": {
+    "message": "Does Not Start With"
+  },
+  "RuleOpEndsWith": {
+    "message": "Ends With"
+  },
+  "RuleOpDoesNotEndWith": {
+    "message": "Does Not End With"
+  },
+  "RuleOpGreaterThan": {
+    "message": "Greater Than"
+  },
+  "RuleOpGreaterThanOrEqual": {
+    "message": "Greater Than or Equal"
+  },
+  "RuleOpLessThan": {
+    "message": "Less Than"
+  },
+  "RuleOpLessThanOrEqual": {
+    "message": "Less Than or Equal"
+  },
+  "RuleOpIsTrue": {
+    "message": "Is True"
+  },
+  "RuleOpIsFalse": {
+    "message": "Is False"
+  },
+  "RuleOpMatchesRegex": {
+    "message": "Contains Pattern (Regex)"
+  },
+  "RuleOpNotMatchesRegex": {
+    "message": "Does Not Contain Pattern"
+  },
+  "RuleOpContainsAny": {
+    "message": "Contains Any"
+  },
+  "RuleOpNotContainsAny": {
+    "message": "Does Not Contain Any"
+  },
+  "CustomFiltersDescription": {
+    "message": "Create custom filters to automatically block content that matches your specific rules."
+  },
+  "ConjunctionRuleAND": {
+    "message": "Must meet EVERY rule"
+  },
+  "ConjunctionRuleOR": {
+    "message": "Can meet ANY rule"
+  },
+  "ConjunctionRuleNAND": {
+    "message": "Must NOT meet EVERY rule"
+  },
+  "ConjunctionRuleNOR": {
+    "message": "Must NOT meet ANY rule"
+  },
+  "NewVideoFilter": {
+    "message": "New Video Filter"
+  },
+  "NewCommentFilter": {
+    "message": "New Comment Filter"
+  },
+  "NewPostFilter": {
+    "message": "New Post Filter"
+  },
+  "NewPlaylistFilter": {
+    "message": "New Playlist Filter"
+  },
+  "FilterEnabled": {
+    "message": "Enabled"
+  },
+  "FilterDisabled": {
+    "message": "Disabled"
+  },
+  "FilterNameTooltip": {
+    "message": "Click to edit name"
+  },
+  "EmptyGroupMessage": {
+    "message": "Empty group. Add a rule or a sub-group."
+  },
+  "CreateNew": {
+    "message": "Create New"
+  },
+  "ConjunctionAndConnector": {
+    "message": "AND"
+  },
+  "ConjunctionOrConnector": {
+    "message": "OR"
+  },
+  "ConjunctionNorConnector": {
+    "message": "NOR"
+  },
+  "ConjunctionNandConnector": {
+    "message": "NAND"
+  },
+  "NewBadge": {
+    "message": "New!"
+  },
+  "PageHistory": {
+    "message": "History"
+  },
+  "PageChannel": {
+    "message": "Channel"
+  },
+  "PagePlaylist": {
+    "message": "Playlist"
+  },
+  "PageTrending": {
+    "message": "Trending"
+  },
+  "Copy": {
+    "message": "Copy"
+  },
+  "PasteAbove": {
+    "message": "Paste Above"
+  },
+  "PasteBelow": {
+    "message": "Paste Below"
+  },
+  "PasteInside": {
+    "message": "Paste Inside"
+  },
+  "MoreOptions": {
+    "message": "More Options"
+  },
+  "Edit": {
+    "message": "Edit"
+  },
+  "QuickBlockVideoHotkey": {
+    "message": "Quick hotkey to block/unblock hovered video"
+  },
+  "QuickBlockVideoHotkeyDescription": {
+    "message": "Press this hotkey while hovering over a video to quickly block or unblock it."
+  },
+  "QuickBlockChannelHotkey": {
+    "message": "Quick hotkey to block/unblock channel of hovered video"
+  },
+  "QuickBlockChannelHotkeyDescription": {
+    "message": "Press this hotkey while hovering over a video to quickly block or unblock its channel."
+  },
+  "HotkeyInputRecordPlaceholder": {
+    "message": "Press key (Esc to clear)"
+  },
+  "HotkeyInputEmpty": {
+    "message": "None (click to set)"
+  },
+  "ClearHotkey": {
+    "message": "Clear hotkey"
+  },
+  "ChannelBlockBySubscribersTitle": {
+    "message": "Block videos by channel subscriber count"
+  },
+  "ChannelBlockMaxSubscribers": {
+    "message": "Block videos from channels with <b>more</b> subscribers than"
+  },
+  "ChannelBlockMinSubscribers": {
+    "message": "Block videos from channels with <b>less</b> subscribers than"
+  },
+  "BlockReasonChannelMaxSubscribers": {
+    "message": "Channel with more than {1} {^0:subscriber;subscribers}",
+    "description": "{1} is the formatted number of subscribers"
+  },
+  "BlockReasonChannelMinSubscribers": {
+    "message": "Channel with less than {1} {^0:subscriber;subscribers}",
+    "description": "{1} is the formatted number of subscribers"
+  }
+}

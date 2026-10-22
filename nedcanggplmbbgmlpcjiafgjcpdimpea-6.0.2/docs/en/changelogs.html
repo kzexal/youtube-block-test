@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Release Notes</title>
+    <script src="../../theme.js"></script>
+    <link rel="stylesheet" href="../docs.css" />
+  </head>
+  <body>
+    <div class="contents">
+      <h1>Release Notes</h1>
+
+      <article>
+        <h2>📣 10/07/2026 v6.0.2</h2>
+        <ul>
+          <li>
+            <a option-redirect="quick_block_video_hotkey">
+              Added option to block videos by hovering it and pressing a custom shortcut.
+            </a>
+          </li>
+          <li>
+            <a option-redirect="quick_block_channel_hotkey">
+              Added option to block channels by hovering a video and pressing a custom shortcut.
+            </a>
+          </li>
+          <li>Fix not auto skipping videos when autoplay is on.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 09/30/2026 v6.0.1</h2>
+        <ul>
+          <li>Fixed non-stop 100% CPU usage.</li>
+          <li>
+            Fixed shorts page block overlay disappearing and randomly pausing
+            videos.
+          </li>
+          <li>Fixed empty options page related to preset issues.</li>
+          <li>Optimized custom filtering.</li>
+          <li>
+            Fixed members-only videos not being blocked on the home page.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 09/10/2026 v6.0.0</h2>
+        <ul>
+          <li>
+            <a option-section="filters">Added custom filtering.</a>
+            <p>
+              Custom filtering allows you to create very specific rules for
+              blocking content that modifiers couldn't.
+            </p>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html#overlay_modifier"
+              >Added <code>overlay</code> modifier.</a
+            >
+            <p>
+              Allows you to enable or disable the blocking overlay for specific
+              keywords.
+            </p>
+          </li>
+          <li>Text boxes now remember their size when resized.</li>
+          <li>
+            Fixed toast notifications rapidly collapsing and expanding when
+            hovering over the gap between them.
+          </li>
+          <li>
+            Fixed toast notifications sometimes not disappearing and being
+            unable to be closed.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 08/04/2026 v5.22.0</h2>
+        <ul>
+          <li>Removed total block count.</li>
+          <p>
+            The extension previously tracked all blocked content to provide a
+            total count of blocked content, but this caused performance issues
+            and lag when blocking a large amount of content. I decided to remove
+            it since the performance cost outweighed the benefits. Sorry to
+            anyone who experienced lag because of this, and to those who enjoyed
+            seeing the total count. The current session's block count in the
+            popup remains.
+          </p>
+          <li>Fixed members-only videos not being blocked on the home page.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 08/04/2026 v5.21.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_music_videos"
+              >Added option to block music videos.</a
+            >
+          </li>
+          <li>
+            Blocking by watch progress is now ignored on the history page.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 07/28/2026 v5.20.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_ai_videos"
+              >Added option to block AI videos (experimental).</a
+            >
+          </li>
+          <li>Fixed blank spaces when blocking videos.</li>
+          <li>
+            Fixed cancel button from auto skip not working in the watch page.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 07/15/2026 v5.19.0</h2>
+        <ul>
+          <li>General optimizations.</li>
+          <li>
+            <a option-redirect="enable_undo_toast"
+              >Added an option to undo blocks via notification.</a
+            >
+          </li>
+          <li>
+            Extension updates now apply automatically without requiring a tab
+            reload.
+          </li>
+          <li>
+            <a option-redirect="enable_context_menu"
+              >Added an option to disable context menu (right-click) options.</a
+            >
+          </li>
+          <li>Fixed an issue where playlists were occasionally not blocked.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 05/26/2026 v5.18.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="hide_channel_block_button_on_subscription_page"
+              >Added option to not show channel block button on subscriptions
+              page.</a
+            >
+            <p>Enabled by default.</p>
+          </li>
+          <li>
+            Fixed channel block button not appearing on shorts page when first
+            loading a video.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 05/05/2026 v5.17.0</h2>
+        <ul>
+          <li>Added a timer for auto skipping videos from the watch page.</li>
+          <li>
+            Fixed blocking video recommendations that appear when finishing a
+            video.
+          </li>
+          <li>
+            Fixed three dots menu buttons appearing in non-content-related
+            dropdowns.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 04/24/2026 v5.16.12</h2>
+        <ul>
+          <li>Fixed transparent block overlays.</li>
+          <li>Fixed transparent password protection overlay.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 04/15/2026 v5.16.11</h2>
+        <ul>
+          <li>Fixed not blocking live videos.</li>
+          <li>Fixed playlists not being blocked by title or id.</li>
+          <li>Fixed three dots menus buttons not appearing on playlists.</li>
+          <li>
+            Fixed (sort of) block overlay on shorts being misaligned when
+            showing comments.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 04/08/2026 v5.16.10</h2>
+        <ul>
+          <li>Fixed videos not being blocked by title.</li>
+          <li>Fixed three dots menu buttons not appearing.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 04/06/2026 v5.16.9</h2>
+        <ul>
+          <li>Fixed channel block button not appearing.</li>
+          <li>Fixed shorts from the /shorts page not being blocked on load.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 03/24/2026 v5.16.8</h2>
+        <ul>
+          <li>Fixed videos from the /shorts page not being blocked.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 03/03/2026 v5.16.7</h2>
+        <ul>
+          <li>Fixed premiere videos not being blocked.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 02/03/2026 v5.16.6</h2>
+        <ul>
+          <li>Fixed initial videos not being blocked.</li>
+          <li>
+            Fixed issue when getting duration of videos in the watch page.
+          </li>
+          <li>Fixed blocking channels that contains new lines in the name.</li>
+          <li>Adjusted channel block button spacing and clickable area.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 12/18/2025 v5.16.5</h2>
+        <ul>
+          <li>Fixed some comments not being blocked by content.</li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html#age_restricted_modifier"
+              >Added <code>restricted</code> modifier.</a
+            >
+            <p>Apply keyword only for videos that are age restricted.</p>
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 12/03/2025 v5.15.5</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_watch_progress"
+              >Added option to block by watch progress. (Already watched
+              videos)</a
+            >
+          </li>
+          <li>Fixed member only videos not being blocked.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 11/19/2025 v5.14.5</h2>
+        <ul>
+          <li>
+            <a option-redirect="bigger_channel_block_button"
+              >Added option to make the channel block button bigger.</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html#page_modifier"
+              >Added <code>page</code> modifier.</a
+            >
+            <p>Can be used to block content only in specific pages.</p>
+          </li>
+          <li>
+            <a option-redirect="blacklist_api_search"
+              >Added option to ignore search pages in the API.</a
+            >
+          </li>
+          <li>Fixed channel block button not appearing on shorts.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 10/13/2025 v5.13.5</h2>
+        <ul>
+          <li>
+            Fixed an issue where the three-dot menu was not working on videos
+            from watch page.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 09/16/2025 v5.13.4</h2>
+        <ul>
+          <li>Fixed issue of settings missing when switching presets.</li>
+          <li>
+            Fixed issue where changing overlay visibility via popup would not
+            save in the current preset.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 09/09/2025 v5.13.3</h2>
+        <ul>
+          <li>
+            Fixed video not being able to block videos from watch page when
+            resizing the page and changing the page layout.
+          </li>
+          <li>Fixed not being able to block playlists by title.</li>
+          <li>Fixed not being able to block comments by ID in posts.</li>
+          <li>
+            Fixed not being able to block channels by the block button when
+            there's a empty new line on the blocked channel list.
+          </li>
+          <li>
+            Fixed channel block button not appearing on comments made by the
+            video's creator.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 09/01/2025 v5.13.2</h2>
+        <ul>
+          <li>
+            Fixed videos on the homepage and watch page not being blocked.
+          </li>
+          <li>
+            Fixed three-dots menus for videos on the homepage and watch page.
+          </li>
+          <li>
+            Fixed the channel block button not appearing in videos on the
+            homepage and watch page.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 08/22/2025 v5.13.0</h2>
+        <ul>
+          <li>
+            <a option-section="presets">Added preset scheduling.</a>
+          </li>
+          <li>
+            <a option-redirect="show_block_option_on_three_dots"
+              >Added option to hide/show block buttons in the three-dots
+              menu.</a
+            >
+          </li>
+          <li>Reworked the overlay for blocked Shorts.</li>
+          <li>Fixed incorrect video detection on the Shorts page.</li>
+          <li>
+            Fixed the block button in the three-dots menu not appearing in the
+            Shorts page.
+          </li>
+          <li>
+            Fixed buttons not appearing when clicking the three-dots menu for
+            videos on the homepage.
+          </li>
+          <li>Fixed empty gaps left by blocked videos on the homepage.</li>
+          <li>
+            Fixed occasional instances where thread comments were not detected.
+          </li>
+          <li>Fixed issue where emojis in comments were being ignored.</li>
+          <li>Fixed showing replies for blocked comments.</li>
+          <li>Fixed Shorts not being detected on the search page.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 04/09/2025 v5.12.1</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_languages"
+              >Added video language blocking.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="block_date_range_0"
+              >Added blocking video by date interval.</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 02/12/2025 v5.11.1</h2>
+        <ul>
+          <li>
+            <a option-section="presets">Added presets.</a>
+            <p>Easily switch between settings.</p>
+          </li>
+          <li>Fixed mix playlists not being blocked.</li>
+          <li>Fixed normal playlists being blocked as mix playlists.</li>
+          <li>Fixed not being able to block videos from the watch page.</li>
+          <li>Fixed channel block button not being shown on shorts.</li>
+          <li>
+            Fixed an issue where comments were incorrectly blocked or allowed.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 12/13/2024 v5.10.1</h2>
+        <ul>
+          <li>Fixed some elements of the page disappearing</li>
+          <li>
+            Fixed not being able to block shorts by their information (title,
+            description, etc.)
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 12/11/2024 v5.10.0</h2>
+        <ul>
+          <li>Removed empty spaces where video is blocked.</li>
+          <li>Fixed issue preventing shorts from being blocked by title.</li>
+          <li>
+            Block by duration no longer assumes shorts are less than 1 minute
+            long (YouTube increased maximum duration to 3 minutes).
+          </li>
+          <li>
+            Fixed issue preventing mix playlists from being blocked in certain
+            languages.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 12/02/2024 v5.9.0</h2>
+        <ul>
+          <li>
+            🌟
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://ytblock.netlify.app?utm_source=ytblock&utm_content=changelogs"
+              >Website release!</a
+            >
+          </li>
+          <li>
+            <a option-redirect="whitelist_content">Added whitelist keywords.</a>
+          </li>
+          <li>Fixed not being able to block playlists and mixes.</li>
+          <li>Fixed extension's icon being shown as "Popup".</li>
+          <li>Small tweaks and fixed some typos.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 10/07/2024 v5.8.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_search_suggestions"
+              >Added option to hide search suggestions related to blocked
+              content.</a
+            >
+          </li>
+          <li>Fix not being able to block shorts videos.</li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html"
+              >Added modifier for "members only" videos.</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 08/15/2024 v5.7.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_members_only_videos"
+              >Added option to block member only videos.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="video_max_view_count"
+              >Added option to block videos by view count.</a
+            >
+          </li>
+          <li>
+            Fix
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html"
+              >modifiers from keywords</a
+            >
+            not working in some cases.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 07/15/2024 v5.5.0</h2>
+        <ul>
+          <li>Enhanced the options page UI. Cleaner and more fancy looking.</li>
+          <li>
+            <a option-redirect="block_age_restricted_videos"
+              >Added option to block age restricted videos.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="cache_api_option"
+              >Added option to auto clear cached API videos.</a
+            >
+          </li>
+          <li>
+            <a option-section="overlays"
+              >Added preview for block overlay customization.</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 06/14/2024 v5.0.41</h2>
+        <ul>
+          <li>
+            <a option-redirect="hard_disable"
+              >Added option to click 1000 times to disable the extension.</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <h2>📣 05/22/2024 v5.0.4</h2>
+      <ul>
+        <li>
+          <a
+            href="https://microsoftedge.microsoft.com/addons/detail/ytblock-block-any-conte/eomdhjipmdbjcdejagjbbjmgamlbeomp"
+            target="_blank"
+            >The extension is now available on Edge!</a
+          >
+        </li>
+        <li>
+          Fixed the issue of blocked videos not being auto-skipped in playlists.
+        </li>
+        <li>
+          Fixed the issue where opened videos were not being blocked in the new
+          YouTube layout.
+        </li>
+      </ul>
+
+      <hr />
+
+      <h2>📣 05/03/2024 v5.0.3</h2>
+      <ul>
+        <li>Fixed performance issues.</li>
+        <li>
+          <a option-redirect="notify_updates"
+            >Added option to notify updates.</a
+          >
+        </li>
+      </ul>
+
+      <hr />
+
+      <h2>📣 04/21/2024 v5.0.1</h2>
+      <ul>
+        <li>Fixed channel block button not appearing in some videos.</li>
+        <li>
+          Fixed issue when exporting/importing settings that contains non-latin
+          characters.
+        </li>
+        <li>Fixed pt-BR pages not opening on Firefox.</li>
+        <li>
+          Fixed popup opening with incorrect size when protected by password.
+        </li>
+      </ul>
+
+      <hr />
+
+      <h2>📣 04/15/2024 v5.0.0</h2>
+      <ul>
+        <li>
+          <a
+            href="https://addons.mozilla.org/pt-BR/firefox/addon/video-blocker-for-youtube/"
+            target="_blank"
+            >The extension is now available on Firefox!</a
+          >
+        </li>
+        <li>
+          <a option-section="playlists"
+            >Now it is possible to block playlists.</a
+          >
+        </li>
+        <li>Performance improvements.</li>
+        <li>Reduced size of exported settings.</li>
+        <li>More smooth shorts page blocking experience.</li>
+      </ul>
+
+      <hr />
+
+      <article>
+        <h2>📣 12/07/2023 v4.0.0</h2>
+        <ul>
+          <li>
+            🌟
+            <a href="https://www.patreon.com/EdoanDev" target="_blank"
+              >Patreon page!</a
+            >
+            If you feel like it, support the extension.
+          </li>
+          <li><a option-section="security">Added password protection.</a></li>
+          <li>
+            <a option-section="overlays">Added overlay section</a>, it allows
+            you enable/disable overlays or edit them.
+          </li>
+          <li>
+            <a option-redirect="add_channel_block_button"
+              >Added option to create a block button next to channels.</a
+            >
+          </li>
+          <li>
+            Changed options of "Remove blocked contents" to be just "Show
+            overlay".
+          </li>
+          <li>Fix error message when trying to block channels.</li>
+          <li>
+            Fix not being able to save options when there's too much keywords.
+          </li>
+          <li>
+            Added button to make the option "Hard to disable" more harder to
+            disable on the options page.
+          </li>
+          <li>
+            Redirect to subscription button does not reload the page anymore.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 08/25/2023 v3.6.4</h2>
+        <ul>
+          <li>Fix unblock button not unblocking channels by handle or URL.</li>
+          <li>Fix not blocking videos by channel on channel pages.</li>
+          <li>
+            Fix video preview playing audio while hovering the block overlay.
+          </li>
+          <li>Added modifier for premiere/upcoming videos.</li>
+          <li>
+            Mobile: video and comments now can be blocked, but no overlay for
+            now.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 08/15/2023 v3.5.4</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_premiere"
+              >Added option to block premiere videos.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="hard_disable"
+              >Added option to make it harder to disable the extension.</a
+            >
+          </li>
+          <li>Videos from miniplayer are now blockable.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 03/30/2023 v3.4.3</h2>
+        <ul>
+          <li>
+            <a option-redirect="ignore_watch_later_playlist_label"
+              >Added option to prevent blocking videos from "watch later"
+              playlist.</a
+            >
+          </li>
+          <li>Fix not blocking some suggested videos.</li>
+          <li>Fix not blocking certain channels.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 03/23/2023 v3.3.2</h2>
+        <p>Over 9k users using the extension, thank you! :)</p>
+        <ul>
+          <li>
+            <a option-redirect="block_by_published_time_section"
+              >Added option to block video by older or newer.</a
+            >
+          </li>
+          <li>Fix duration modifiers.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 01/31/2023 v3.2</h2>
+        <ul>
+          <li>Add option to block video shorter than duration.</li>
+          <li>Add option to block live videos.</li>
+          <li>Added modifiers: minduration, live.</li>
+          <li>Fix infinite loading when checking the API key.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 12/07/2022 v3.0</h2>
+        <ul>
+          <li>New options page.</li>
+          <li>Block shorts and posts.</li>
+          <li>
+            Block video by description (require API in most of the pages).
+          </li>
+          <li>Block video by duration.</li>
+          <li>Block cards that show up when video ends.</li>
+          <li>Option to auto-save changes.</li>
+          <li>
+            Section for channel blocking (it will apply to every content).
+          </li>
+          <li>Option to whitelist channels.</li>
+          <li>More options for text areas (exact match & word boundary).</li>
+          <li>
+            Now is possible to block any text by selecting it and opening the
+            context menu (right click).
+          </li>
+          <li>Support channel @handle.</li>
+          <li>More options for API.</li>
+          <li>Updated to Manifest V3.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 11/24/2022 v2.8.7</h2>
+        <ul>
+          <li>Fix pause icon.</li>
+          <li>Popup's disable/enable button now remember the timer.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 09/14/2022 v2.8.6</h2>
+        <ul>
+          <li>
+            Change extension's name and icon to fit more with Google's brand
+            guidelines.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 08/31/2022 v2.8.5</h2>
+        <ul>
+          <li>Added option to block videos by categories.</li>
+          <li>Added option to remove the "Watch Anyway" button.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 06/02/2022 v2.7.8</h2>
+        <ul>
+          <li>Fix not properly blocking videos from youtu.be.</li>
+          <li>
+            Added button to unblock the video/comment if was blocked by link or
+            ID.
+          </li>
+          <li>Now menus buttons can also unblock videos/comments/channels.</li>
+          <li>Fix youtube menus font size.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 06/01/2022 v2.7.5</h2>
+        <ul>
+          <li>
+            In the popup page, added option to disable the extension. (Also you
+            can disable temporary)
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 05/23/2022 v2.6.4</h2>
+        <ul>
+          <li>
+            <a target="_blank" href="./advanced_guide.html#ANDoperator"
+              >Added AND operator.</a
+            >
+          </li>
+          <li>Added more donations links.</li>
+          <li>Fixed bug that was preventing from blocking #shorts videos.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 02/16/2021 v2.5.4</h2>
+        <ul>
+          <li>
+            Added "Block mix playlist" option. When enabled, this will block the
+            "Mix" playlist that is generated by youtube.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 01/26/2021 v2.5.3</h2>
+        <ul>
+          <li>
+            Added "Block playlist videos" option. When disabled, this will
+            prevent from blocking playlist videos, even when it match the
+            blocking settings.
+          </li>
+          <li>
+            Added "isplaylistvideo" modifier, this will check if the video is
+            part of a playlist.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 09/10/2021 v2.4</h2>
+        <ul>
+          <li>
+            Now opened videos can be blocked. (You can deactivate it on the
+            options)
+          </li>
+          <li>Added option to auto-skip blocked videos in playlists.</li>
+          <li>Added option to block channel in the three dots menu.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 09/06/2021 v2.3</h2>
+        <ul>
+          <li>
+            Better looking "hide" window, when videos/comments are blocked and
+            the options to remove them is unchecked.
+          </li>
+          <li>Added block button on the three dots of videos and comments.</li>
+          <li>Added option to block specific comments by link or ID.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 07/09/2021 v2.2.1</h2>
+        <ul>
+          <li>
+            Fixed problem which caused unhide button from blocked comments to
+            not work.
+          </li>
+          <li>
+            In the popup, added checkboxes to remove blocked videos or comments.
+          </li>
+          <li>Added option to youtube logo redirect to subscriptions page.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 01/20/2021 v2</h2>
+        <ul>
+          <li>Now it's possible block comments and users.</li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html#modifiers"
+              >Modifiers</a
+            >
+            for more advanced blocking.
+          </li>
+          <li>
+            Switch between ☀️ light mode and 🌙 dark mode using the button on
+            the top right corner in the options.
+          </li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="./api_guide.html"
+              >API Key guide</a
+            >
+            reworked.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <button class="back-to-options">Back to Options</button>
+    </div>
+    <script src="../../doc.js"></script>
+  </body>
+</html>

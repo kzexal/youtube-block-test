@@ -1,0 +1,1117 @@
+<!doctype html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notas de lançamento</title>
+    <script src="../../theme.js"></script>
+    <link rel="stylesheet" href="../docs.css" />
+  </head>
+  <body>
+    <main class="contents">
+      <h1>Notas de lançamento</h1>
+
+      <article>
+        <h2>📣 07/10/2026 v6.0.2</h2>
+        <ul>
+          <li>
+            <a option-redirect="quick_block_video_hotkey">
+              Adicionada opção de bloquear vídeos passando o mouse sobre ele e pressionando um atalho.
+            </a>
+          </li>
+          <li>
+            <a option-redirect="quick_block_channel_hotkey">
+              Adicionada opção de bloquear canais passando o mouse sobre um vídeo e pressionando um atalho.
+            </a>
+          </li>
+          <li>Corrigido não pular vídeos automaticamente quando o autoplay está ativado.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 30/09/2026 v6.0.1</h2>
+        <ul>
+          <li>Corrigido uso contínuo de 100% de CPU.</li>
+          <li>
+            Corrigido a sobreposição de bloqueio na página de shorts
+            desaparecendo e pausando vídeos aleatoriamente.
+          </li>
+          <li>
+            Corrigido página de opções em branco relacionada a problemas de
+            predefinições.
+          </li>
+          <li>Otimizado filtros personalizados.</li>
+          <li>
+            Corrigido vídeos exclusivos para membros não sendo bloqueados na
+            página inicial.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 10/09/2026 v6.0.0</h2>
+        <ul>
+          <li>
+            <a option-section="filters">Adicionado filtros personalizados.</a>
+            <p>
+              Os filtros personalizados permitem criar regras bastante
+              específicas para bloquear conteúdo que os modificadores não
+              conseguiam.
+            </p>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html#overlay_modifier"
+              >Adicionado modificador <code>overlay</code>.</a
+            >
+            <p>
+              Permite ativar ou desativar a sobreposição de bloqueio para uma
+              palavra-chave específica.
+            </p>
+          </li>
+          <li>
+            As caixas de texto agora lembram de seu tamanho ao serem
+            redimensionadas.
+          </li>
+          <li>
+            Corrigido notificações colapsando e expandindo rapidamente ao passar
+            o mouse sobre o espaço entre elas.
+          </li>
+          <li>
+            Corrigido notificações que às vezes não desapareciam e não podiam
+            ser fechadas.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 25/08/2026 v5.22.0</h2>
+        <ul>
+          <li>Removida a contagem total de bloqueios.</li>
+          <p>
+            A extensão anteriormente registrava todo o conteúdo bloqueado para
+            fornecer uma contagem total, mas isso causou problemas de desempenho
+            e travamentos ao bloquear uma grande quantidade de conteúdo. Decidi
+            remover isso já que o custo de desempenho superou os benefícios.
+            Desculpe a qualquer um que tenha sofrido travamentos por causa
+            disso, e àqueles que gostavam de ver a contagem total. A contagem de
+            bloqueios da sessão atual no popup permanece.
+          </p>
+          <li>
+            Corrigido vídeos exclusivos para membros não sendo bloqueados na
+            página inicial.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 04/08/2026 v5.21.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_music_videos"
+              >Adicionado opção de bloquear vídeos de música.</a
+            >
+          </li>
+          <li>
+            Bloqueio por progresso assistido agora é ignorado na página de
+            histórico.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 28/07/2026 v5.20.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_ai_videos"
+              >Adicionado opção de bloquear vídeos IA (experimental)</a
+            >
+          </li>
+          <li>Corrigidos espaços vazios ao bloquear vídeos.</li>
+          <li>
+            Corrigido o botão de cancelar o pulo automático não funcionando na
+            página de exibição.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 15/07/2026 v5.19.0</h2>
+        <ul>
+          <li>Otimizações gerais.</li>
+          <li>
+            <a option-redirect="enable_undo_toast"
+              >Adicionada a opção para desfazer bloqueios através da
+              notificação.</a
+            >
+          </li>
+          <li>
+            As atualizações da extensão agora são aplicadas automaticamente, sem
+            a necessidade de recarregar a aba.
+          </li>
+          <li>
+            <a option-redirect="enable_context_menu"
+              >Adicionada uma opção para desativar as opções do menu de contexto
+              (clique com o botão direito).</a
+            >
+          </li>
+          <li>
+            Corrigido um problema em que playlists ocasionalmente não eram
+            bloqueadas.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 26/05/2026 v5.18.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="hide_channel_block_button_on_subscription_page"
+              >Adicionada opção para o botão de bloqueio de canal não aparecer
+              na página de inscrições.</a
+            >
+            <p>Ativado por padrão.</p>
+          </li>
+          <li>
+            Corrigido o botão de bloqueio de canal não aparecendo na página de
+            shorts ao carregar um vídeo pela primeira vez.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 05/05/2026 v5.17.0</h2>
+        <ul>
+          <li>
+            Adicionado temporizador para pular vídeos da página de exibição de
+            vídeos.
+          </li>
+          <li>
+            Corrigido bloqueio de vídeos recomendados que aparecem ao finalizar
+            um vídeo.
+          </li>
+          <li>
+            Corrigido botões de menu de três pontos aparecendo em dropdowns não
+            relacionados a conteúdos.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 24/04/2026 v5.16.12</h2>
+        <ul>
+          <li>Corrigido sobreposições de bloqueio transparentes.</li>
+          <li>Corrigido sobreposição de proteção por senha transparente.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 15/04/2026 v5.16.11</h2>
+        <ul>
+          <li>Corrigido vídeos ao vivo não sendo bloqueados.</li>
+          <li>Corrigido playlists não sendo bloqueadas por título ou id.</li>
+          <li>
+            Corrigido botões de menu de três pontos não aparecendo nas
+            playlists.
+          </li>
+          <li>
+            Corrigido (mais ou menos) overlay de bloqueio em shorts desalinhado
+            ao mostrar comentários.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 08/04/2026 v5.16.10</h2>
+        <ul>
+          <li>Corrigido vídeos não sendo bloqueados pelo título.</li>
+          <li>Corrigido botões de menu de três pontos não aparecendo.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 06/04/2026 v5.16.9</h2>
+        <ul>
+          <li>Corrigido botão de bloqueio de canal não aparecendo.</li>
+          <li>
+            Corrigido o primeiro short da página de shorts não sendo bloqueados.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 24/03/2026 v5.16.8</h2>
+        <ul>
+          <li>Corrigido vídeos da página de shorts não sendo bloqueados.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 03/03/2026 v5.16.7</h2>
+        <ul>
+          <li>Corrigido vídeos de estreia não sendo bloqueados.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 03/02/2026 v5.16.6</h2>
+        <ul>
+          <li>Corrigido vídeos iniciais não sendo bloqueados.</li>
+          <li>
+            Corrigido problema ao obter a duração dos vídeos na página de
+            exibição.
+          </li>
+          <li>
+            Corrigido o bloqueio de canais que contêm quebras de linha no nome.
+          </li>
+          <li>
+            Ajustado o espaçamento e a área clicável do botão de bloqueio de
+            canal.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 18/12/2025 v5.16.5</h2>
+        <ul>
+          <li>
+            Corrigido alguns comentários não serem bloqueados pelo conteúdo.
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html#age_restricted_modifier"
+              >Adicionado modificador <code>restricted</code>.</a
+            >
+            <p>
+              Aplica palavra-chave apenas para vídeos com restrição de idade.
+            </p>
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 03/12/2025 v5.15.5</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_watch_progress"
+              >Adicionado opção para bloquear por progresso de visualização.
+              (Vídeos já assistidos)</a
+            >
+          </li>
+          <li>Corrigido vídeos somente para membros não serem bloqueados.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 19/11/2025 v5.14.5</h2>
+        <ul>
+          <li>
+            <a option-redirect="bigger_channel_block_button"
+              >Adicionado opção para tornar o botão de bloqueio de canais
+              maior.</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html#page_modifier"
+              >Adicionado modificador <code>page</code>.</a
+            >
+            <p>Pode ser usado para bloquear conteúdo de páginas específicas.</p>
+          </li>
+          <li>
+            <a option-redirect="blacklist_api_search"
+              >Adicionado opção para ignorar páginas de pesquisa na API.</a
+            >
+          </li>
+          <li>
+            Corrigido botão de bloqueio de canais não aparecendo em vídeos na
+            página de shorts.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 13/10/2025 v5.13.5</h2>
+        <ul>
+          <li>
+            Corrigido o menu de três pontos que não funcionava em vídeos na
+            página de exibição de vídeos
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 16/09/2025 v5.13.4</h2>
+        <ul>
+          <li>
+            Corrigido problema de configurações faltando ao alterar entre
+            predefinições.
+          </li>
+          <li>
+            Corrigido problema em que a alteração da visibilidade da
+            sobreposição via popup não salvava na predefinição atual.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 09/09/2025 v5.13.3</h2>
+        <ul>
+          <li>
+            Corrigido não ser possível bloquear vídeos da página de exibição de
+            vídeo ao redimensionar a página e alterar o layout da página.
+          </li>
+          <li>Corrigido não ser possível bloquear playlists por título.</li>
+          <li>
+            Corrigido não ser possível bloquear comentários por ID em postagens.
+          </li>
+          <li>
+            Corrigido não ser possível bloquear canais pelo botão de bloqueio
+            quando há uma nova linha vazia na lista de canais bloqueados.
+          </li>
+          <li>
+            Corrigido o botão de bloqueio de canal não aparecendo em comentários
+            feitos pelo criador do vídeo.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 01/09/2025 v5.13.2</h2>
+        <ul>
+          <li>
+            Corrigido problema em que vídeos na página inicial e de exibição não
+            estavam sendo bloqueados.
+          </li>
+          <li>
+            Corrigido os menus de três pontos para vídeos na página inicial e de
+            exibição.
+          </li>
+          <li>
+            Corrigido o botão de bloqueio de canal não aparecendo em vídeos na
+            página inicial e de exibição.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 22/08/2025 v5.13.0</h2>
+        <ul>
+          <li>
+            <a option-section="presets"
+              >Adicionado agendamento de predefinições.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="show_block_option_on_three_dots"
+              >Adicionada opção para ocultar/mostrar botões de bloqueio no menu
+              de três pontos.</a
+            >
+          </li>
+          <li>Retrabalhada a sobreposição para Shorts bloqueados.</li>
+          <li>Corrigida detecção incorreta de vídeos na página de Shorts.</li>
+          <li>
+            Corrigido o botão de bloqueio no menu de três pontos não aparecendo
+            na página de Shorts.
+          </li>
+          <li>
+            Corrigido botões não aparecendo ao clicar no menu de três pontos
+            para vídeos na página inicial.
+          </li>
+          <li>
+            Corrigido espaços vazios deixados por vídeos bloqueados na página
+            inicial.
+          </li>
+          <li>
+            Corrigidas instâncias ocasionais onde comentários de threads não
+            eram detectados.
+          </li>
+          <li>
+            Corrigido problema onde emojis em comentários estavam sendo
+            ignorados.
+          </li>
+          <li>Corrigido exibição de respostas para comentários bloqueados.</li>
+          <li>Corrigido Shorts não sendo detectado na página de pesquisa.</li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 09/04/2025 v5.12.1</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_languages"
+              >Adicionado bloqueio por idioma de vídeo.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="block_date_range_0"
+              >Adicionado bloqueio por intervalo de data.</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <article>
+        <h2>📣 02/12/2025 v5.11.1</h2>
+        <ul>
+          <li>
+            <a option-section="presets">Adicionado predefinições.</a>
+            <p>Alterne facilmente entre configurações.</p>
+          </li>
+          <li>Corrigido playlists mix não sendo bloqueadas.</li>
+          <li>
+            Corrigido playlists normais sendo bloqueadas como playlists mix.
+          </li>
+          <li>
+            Corrigido problema de não ser possível bloquear vídeos na página de
+            vídeo.
+          </li>
+          <li>
+            Corrigido botão de bloquear canal não sendo exibido em shorts.
+          </li>
+          <li>
+            Corrigido um problema onde comentários eram incorretamente
+            bloqueados ou permitidos.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 13/12/2024 v5.10.1</h2>
+        <ul>
+          <li>Corrigido alguns elementos da página desaparecendo</li>
+          <li>
+            Corrigido não ser capaz de bloquear shorts por suas informações
+            (título, descrição, etc.)
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 11/12/2024 v5.10.0</h2>
+        <ul>
+          <li>Removidos espaços vazios onde o vídeo é bloqueado.</li>
+          <li>Corrigido problema prevenindo bloquear shorts por título.</li>
+          <li>
+            Bloquear por duração não assume mais que shorts têm menos de 1
+            minuto (YouTube aumentou a duração máxima para 3 minutos).
+          </li>
+          <li>
+            Corrigido problema que impedia bloqueamento de playlist mix em
+            algumas linguagens.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 02/12/2024 v5.9.0</h2>
+        <ul>
+          <li>
+            🌟
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://ytblock.netlify.app?utm_source=ytblock&utm_content=changelogs"
+              >Lançamento do site!</a
+            >
+          </li>
+          <li>
+            <a option-redirect="whitelist_content"
+              >Adicionado opção de prevenir conteúdo seja bloqueado se conter
+              certas palavras-chaves.</a
+            >
+          </li>
+          <li>
+            Corrigido problema que impedia o bloqueio de playlists e mixes.
+          </li>
+          <li>Corrigido ícone da extensão sendo exibido como "Popup".</li>
+          <li>Pequenos ajustes e correção de alguns erros de digitação.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 07/10/2024 v5.8.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_search_suggestions"
+              >Adicionado opção de esconder sugestões de pesquisa bloqueadas.</a
+            >
+          </li>
+          <li>Corrigido problema prevenindo bloqueio de vídeos shorts.</li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html"
+              >Adicionado modificador para vídeos que são "somente para
+              membros".</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 15/08/2024 v5.7.0</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_members_only_videos"
+              >Adicionado opção de bloquear vídeos que são somente para
+              membros.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="video_max_view_count"
+              >Adicionada opção de bloquear vídeos por contagem de
+              visualizações.</a
+            >
+          </li>
+          <li>
+            Corrigido
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html"
+              >modificadores de palavras-chave</a
+            >
+            não funcionando em alguns casos.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 15/07/2024 v5.5.0</h2>
+        <ul>
+          <li>
+            Aprimorado a interface da página de opções. Mais limpa e com um
+            visual mais elegante.
+          </li>
+          <li>
+            <a option-redirect="block_age_restricted_videos"
+              >Adicionada opção para bloquear vídeos restritos por idade.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="cache_api_option"
+              >Adicionada opção para limpar automaticamente vídeos em cache da
+              API.</a
+            >
+          </li>
+          <li>
+            <a option-section="overlays"
+              >Adicionada prévia para personalização de sobreposições.</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 14/06/2024 v5.0.41</h2>
+        <ul>
+          <li>
+            <a option-redirect="hard_disable"
+              >Adicionado opção de clicar 1000 vezes para desabilitar a
+              extensão.</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 22/05/2024 v5.0.4</h2>
+        <ul>
+          <li>
+            <a
+              href="https://microsoftedge.microsoft.com/addons/detail/ytblock-block-any-conte/eomdhjipmdbjcdejagjbbjmgamlbeomp"
+              target="_blank"
+              >A extensão agora está disponível no Edge!</a
+            >
+          </li>
+          <li>
+            Corrigido o problema em que vídeos bloqueados não eram pulados
+            automaticamente nas playlists.
+          </li>
+          <li>
+            Corrigido o problema em que vídeos abertos não eram bloqueados no
+            novo layout do YouTube.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 03/05/2024 v5.0.3</h2>
+        <ul>
+          <li>Corrigido problemas de desempenho.</li>
+          <li>
+            <a option-redirect="notify_updates"
+              >Adicionado opção de notificar atualizações.</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 21/04/2024 v5.0.1</h2>
+        <ul>
+          <li>
+            Corrigido botão de bloqueio de canais não aparecendo em alguns
+            vídeos.
+          </li>
+          <li>
+            Corrigido problema ao exportar/importar configurações que contém
+            caracteres não latinos.
+          </li>
+          <li>Corrigido páginas em pt-BR não abrindo no Firefox.</li>
+          <li>
+            Corrigido abertura da janela pop-up com tamanho incorreto quando
+            protegida por senha.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 15/04/2024 v5.0.0</h2>
+        <ul>
+          <li>
+            <a
+              href="https://addons.mozilla.org/pt-BR/firefox/addon/video-blocker-for-youtube/"
+              target="_blank"
+              >A extensão agora está disponível no Firefox!</a
+            >
+          </li>
+          <li>
+            <a option-section="playlists"
+              >Agora é possível bloquear playlists.</a
+            >
+          </li>
+          <li>Melhorias de desempenho.</li>
+          <li>Reduzido o tamanho das configurações exportadas.</li>
+          <li>
+            Melhor experiência em bloqueio de vídeos shorts na página de shorts.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 07/12/2023 v4.0.0</h2>
+        <ul>
+          <li>
+            🌟
+            <a href="https://www.patreon.com/EdoanDev" target="_blank"
+              >Página no Patreon!</a
+            >
+            Se tiver vontade, apoie meu trabalho.
+          </li>
+          <li>
+            <a option-section="security">Adicionado proteção por senha.</a>
+          </li>
+          <li>
+            <a option-section="overlays">Adicionado seção de sobreposição</a>, é
+            possivel você habilitar/desabilitar as sobreposições ou altera-las.
+          </li>
+          <li>
+            <a option-redirect="add_channel_block_button"
+              >Criado opção para adicionar um botão de bloqueio ao lado dos
+              canais.</a
+            >
+          </li>
+          <li>
+            Mudança nas opções de "Remover conteúdos bloqueados" para ser apenas
+            "Mostrar sobreposição".
+          </li>
+          <li>Corrigido mensagem de erro ao tentar bloquear canais.</li>
+          <li>
+            Corrigido problema em que não era possivel salvar opções quando há
+            muitas palavras-chave.
+          </li>
+          <li>
+            Adicionado botão para tornar a opção "Difícil de desativar" mais
+            difícil de desativar na página de opções.
+          </li>
+          <li>
+            Botão de redirecionar para página de inscrições não recarrega mais a
+            página.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 25/08/2023 v3.6.4</h2>
+        <ul>
+          <li>
+            Corrigido o botão de desbloquear não desbloqueando canais por
+            indentificador ou link.
+          </li>
+          <li>
+            Corrigido problema de não bloquear vídeos de canais dentro de
+            páginas de canais.
+          </li>
+          <li>
+            Corrigido pré-visualização de vídeos reproduzindo audio na
+            sobreposição de bloqueio.
+          </li>
+          <li>Adicionado modificador de vídeos de estreia.</li>
+          <li>
+            Celular: vídeos e comentários agora podem ser bloqueados, mas sem
+            sobreposição no momento.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 15/08/2023 v3.5.4</h2>
+        <ul>
+          <li>
+            <a option-redirect="block_premiere"
+              >Adicionado opção para bloquear vídeos de estreia.</a
+            >
+          </li>
+          <li>
+            <a option-redirect="hard_disable"
+              >Adicionado opção para deixar a extensão mais difícil de
+              desativar.</a
+            >
+          </li>
+          <li>Vídeos do miniplayer agora são bloqueaveis.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 30/03/2023 v3.4.3</h2>
+        <ul>
+          <li>
+            <a option-redirect="ignore_watch_later_playlist_label"
+              >Adicionado opção de prevenir bloqueio de vídeos da playlist
+              "Assistir mais tarde".</a
+            >
+          </li>
+          <li>Corrigido problema de não bloquear certos vídeos sugeridos.</li>
+          <li>Corrigido problema de não bloquear certos canais.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 23/03/2023 v3.3.2</h2>
+        <p>
+          Gostaria de agradecer os +9.000 usuarios estão usando a extensão,
+          muito obrigado :)
+        </p>
+        <ul>
+          <li>
+            <a option-redirect="block_by_published_time_section"
+              >Adicionado opção de bloquear vídeos velhos ou novos.</a
+            >
+          </li>
+          <li>Corrigido modificadores de duração.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 31/01/2023 v3.2</h2>
+        <ul>
+          <li>
+            Adicionado opção de bloquear vídeos mais curtos que duração
+            especifica.
+          </li>
+          <li>Adicionado opção de bloquear vídeos ao vivo.</li>
+          <li>Adicionado mais modificadores: minduration, live.</li>
+          <li>Corrigido carregamento infinito ao verificar a chave de API.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 07/12/2022 v3.0</h2>
+        <ul>
+          <li>Nova página de opções.</li>
+          <li>É possivel agora bloquear posts e shorts.</li>
+          <li>
+            Bloquear vídeo por descrição (API necessária em várias páginas).
+          </li>
+          <li>Bloquear vídeo por duração.</li>
+          <li>Agora bloqueia cards que aparecem no final do vídeo.</li>
+          <li>Opção de auto-salvar alterações.</li>
+          <li>
+            Criado seção para canais (são aplicados em todos os conteúdos).
+          </li>
+          <li>Opção de lista de canais para não ser bloqueado.</li>
+          <li>
+            Adicionado mais opções em algumas caixas de texto (combinação exata
+            & espaçamento de palavras).
+          </li>
+          <li>
+            Agora é possivel bloquear qualquer texto selecionando ele e abrindo
+            o menu de contexto (clique direito).
+          </li>
+          <li>Suporte à @handle de canal.</li>
+          <li>Mais opções para API.</li>
+          <li>Atualizado para Manifest V3.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 24/11/2022 v2.8.7</h2>
+        <ul>
+          <li>Corrigido ícone de pausa.</li>
+          <li>
+            Botão do popup de desativar/ativar extensão agora lembra o timer.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 14/09/2022 v2.8.6</h2>
+        <ul>
+          <li>
+            Alterado nome e ícone da extensão para encaixar mais com as
+            diretrizes de marca da Google.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 31/08/2022 v2.8.5</h2>
+        <ul>
+          <li>Adicionado opção de bloquear vídeos por categorias.</li>
+          <li>
+            Adicionado opção de remover o botão de "Assistir mesmo assim".
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 02/06/2022 v2.7.8</h2>
+        <ul>
+          <li>Corrigido problemas ao bloquear vídeos do domínio youtu.be.</li>
+          <li>
+            Adicionado botão de desbloquear caso o vídeo/comentário tenha sido
+            bloqueado por link ou ID.
+          </li>
+          <li>
+            Agora os botões de menu consegue desbloquear
+            vídeos/comentários/canais.
+          </li>
+          <li>Corrigido tamanho da fonte dos botões de bloquear no youtube.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 01/06/2022 v2.7.5</h2>
+        <ul>
+          <li>
+            Adicionado opção no popup para desabilitar a extensão. (Também é
+            possivel desabilitar temporariamente)
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 23/05/2022 v2.6.4</h2>
+        <ul>
+          <li>
+            Adicionado operador
+            <a target="_blank" href="./advanced_guide.html#ANDoperator">$&</a>.
+          </li>
+          <li>Adicionado mais links de doação.</li>
+          <li>Corrigido bug de não conseguir bloquear vídeos #shorts.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 16/02/2021 v2.5.4</h2>
+        <ul>
+          <li>
+            Adicionado opção "Bloquear mix playlist". Quando habilitado, isso
+            vai bloquear a playlist "Meu Mix" que o youtube gera.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 26/01/2021 v2.5.3</h2>
+        <ul>
+          <li>
+            Adicionado opção "Bloquear vídeos de playlist". Quando desabilitado,
+            vai prevenir de bloquear videos de playlists, mesmo que as
+            configurações de bloqueamento batam.
+          </li>
+          <li>
+            Adicionado modificador "isplaylistvideo", isso vai verificar se o
+            vídeo faz parte de uma playlist.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 10/09/2021 v2.4</h2>
+        <ul>
+          <li>
+            Agora vídeos abertos são bloqueáveis. (Você pode desativar nas
+            opções)
+          </li>
+          <li>
+            Adicionado opção de pular videos bloqueados automaticamente nas
+            playlists.
+          </li>
+          <li>Adicionado botão de bloquear canal pelo menu de três pontos.</li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 06/09/2021 v2.3</h2>
+        <ul>
+          <li>
+            Janela de vídeos/comentários escondidos está mais bonita agora.
+          </li>
+          <li>
+            Adicionado botão de bloquear videos/comentários pelo botão de três
+            pontos.
+          </li>
+          <li>
+            Adicionado opção de bloquear comentários especificos por link ou ID.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 09/07/2021 v2.2.1</h2>
+        <ul>
+          <li>
+            Corrigido problema com o botão de mostrar comentários bloqueados.
+          </li>
+          <li>
+            No popup, adicionado opções de remover vídeos ou comentários
+            bloqueados.
+          </li>
+          <li>
+            Adicionado opção da logo do youtube redirecionar às inscrições em
+            vez dos recomendados.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>📣 20/01/2021 v2</h2>
+        <ul>
+          <li>Agora é possivel bloquear comentários e usuários</li>
+          <li>
+            Adicionado
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./advanced_guide.html#modifiers"
+              >Modificadores</a
+            >
+            para bloqueamento mais avançado.
+          </li>
+          <li>
+            Trocar ☀️ tema claro e 🌙 tema escuro usando o botão no canto
+            superior direito das opções.
+          </li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="./api_guide.html"
+              >Guia de Chave API</a
+            >
+            retrabalhado.
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+
+      <button class="back-to-options">Voltar as Opções</button>
+    </main>
+    <script src="../../doc.js"></script>
+  </body>
+</html>
